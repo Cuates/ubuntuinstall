@@ -19,7 +19,7 @@
 * [1.2.6](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/surfshark)
 
 ### Vim
-* [8.0.1763-13](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/vim)
+* [8.2](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/vim)
 
 ### p7Zip
 * [16.02-16](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/p7zip)
