@@ -2,6 +2,7 @@
 > Installed and configured Packages
 
 ## Table of Contents
+* [Surfshark](#surfshark)
 * [Vim](#vim)
 * [p7Zip](#p7zip)
 * [Zip UnZip](#zip-unzip)
@@ -13,6 +14,9 @@
 * [NPM](#npm)
 * [Calibre](#calibre)
 * [qBittorrent](#qbittorrent)
+
+### Surfshark
+* [3.8.5](https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage/surfshark)
 
 ### Vim
 * [8.0.1763-13](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/vim)
