@@ -3,6 +3,8 @@
 
 * List services
   * `less /etc/services`
+* Display rules in the firewall
+  * `sudo ufw status verbose`
 * Allow known services by name
   * `sudo ufw allow <service_name>`
   * i.e. `sudo ufw allow ssh`
