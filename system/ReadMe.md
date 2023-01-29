@@ -5,7 +5,7 @@
 * [CentOS](#centos)
 * [DNF](#dnf)
 * [Remi](#remi)
-* [Ifconfig](#ifconfig)
+* [Net-Tools](#nettools)
 * [TZData](#tzdata)
 * [XRDP](#xrdp)
 * [Terminal](#terminal)
@@ -20,8 +20,8 @@
 ### Remi
 * [8.1-2](https://github.com/Cuates/centosinstall/tree/master/system/remi)
 
-### Ifconfig
-* [2.10-alpha](https://github.com/Cuates/centosinstall/tree/master/system/ifconfig)
+### Net-Tools
+* [2.10-alpha](https://github.com/Cuates/ubuntuinstall/tree/main/system/nettools)
 
 ### TZData
 * [2020a-1](https://github.com/Cuates/centosinstall/tree/master/system/tzdata)
