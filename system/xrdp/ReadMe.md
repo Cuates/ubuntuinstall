@@ -1,3 +1,5 @@
+* Note make sure ufw is enabled
+  * `sudo ufw enable`
 * Installing XRDP
   * `sudo apt-get install -y xrdp`
 * Check version
