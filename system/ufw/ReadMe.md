@@ -12,6 +12,8 @@
 * Deny Existing Rule
   * `sudo ufw deny <port_number>`
   * i.e. `sudo ufw deny 2222`
-* Delete Deny Existing Rule
-  * `sudo ufw delete deny <port_number>`
-  * i.e. `sudo ufw delete deny 2222`
+* Delete Rule by Number
+  * `sudo ufw status numbered`
+  * `sudo ufw delete <status_number>`
+    * i.e. `sudo ufw delete 1`
+    * Proceed with operation (y|n)? y
