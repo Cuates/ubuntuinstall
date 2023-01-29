@@ -7,7 +7,7 @@
 * `sudo apt-get upgrade -y`
 * See Upgradable List
 * `sudo apt-get list --upgradable`
-* If you see not upgraded packages, then perform the following
+* If you see upgraded packages not installed, then perform the following
   * `sudo apt-get install <list_of_packages_kept_back>`
 * To remove packages no longer required
 * `sudo apt-get autoremove`
