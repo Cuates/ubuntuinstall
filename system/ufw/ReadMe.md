@@ -13,7 +13,7 @@
   * i.e. `sudo ufw allow 2222/tcp`
 * Deny Existing Rule
   * `sudo ufw deny <port_number>`
-  * i.e. `sudo ufw deny 2222`
+  * i.e. `sudo ufw deny 2222/tcp`
 * Delete Rule by Number
   * `sudo ufw status numbered`
   * `sudo ufw delete <status_number>`
