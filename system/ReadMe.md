@@ -27,7 +27,7 @@
 * [2020a-1](https://github.com/Cuates/centosinstall/tree/master/system/tzdata)
 
 ### XRDP
-* [0.9.14](https://github.com/Cuates/centosinstall/tree/master/system/xrdp)
+* [0.9.17](https://github.com/Cuates/ubuntuinstall/tree/main/system/xrdp)
 
 ### Terminal
 * [CentOS 8](https://github.com/Cuates/centosinstall/tree/master/system/terminal)
