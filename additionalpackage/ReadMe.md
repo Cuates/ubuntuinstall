@@ -16,7 +16,7 @@
 * [qBittorrent](#qbittorrent)
 
 ### Surfshark
-* [3.8.5](https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage/surfshark)
+* [3.8.5](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/surfshark)
 
 ### Vim
 * [8.0.1763-13](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/vim)
