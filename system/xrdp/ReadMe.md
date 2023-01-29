@@ -12,6 +12,7 @@
 * Configuring Xrdp
   * The configuration files are located in the /etc/xrdp directory
   * The main configuration file is named xrdp.ini. This file is divided into sections and allows you to set global configuration settings such as security and listening addresses and create different xrdp login sessions.
+  * Create a backup file before modifying
   * Modify /etc/xrdp/xrdp.ini file
     * `sudo vim /etc/xrdp/xrdp.ini`
     * Optional
