@@ -5,7 +5,7 @@
 * [CentOS](#centos)
 * [DNF](#dnf)
 * [Remi](#remi)
-* [Net-Tools](#nettools)
+* [Net-Tools](#net-tools)
 * [TZData](#tzdata)
 * [XRDP](#xrdp)
 * [Terminal](#terminal)
