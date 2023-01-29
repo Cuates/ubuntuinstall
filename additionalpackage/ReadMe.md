@@ -26,7 +26,7 @@
 * [7.4.2](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/dos2unix)
 
 ### ffmpeg
-* [4.4.2](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/vim)
+* [4.4.2](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/ffmpeg
 
 ### p7Zip
 * [16.02-16](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/p7zip)
