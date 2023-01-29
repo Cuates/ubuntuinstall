@@ -4,10 +4,11 @@
 ## Table of Contents
 * [Surfshark](#surfshark)
 * [Vim](#vim)
+* [Dos2Unix](#dos2unix)
+* [ffmpeg](#ffmpeg)
 * [p7Zip](#p7zip)
 * [Zip UnZip](#zip-unzip)
 * [Rar UnRar](#rar-unrar)
-* [Dos2Unix](#dos2unix)
 * [Image Magick](#image-magick)
 * [Git](#git)
 * [Node](#node)
@@ -21,6 +22,12 @@
 ### Vim
 * [8.2](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/vim)
 
+### Dos2Unix
+* [7.4.2](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/dos2unix)
+
+### ffmpeg
+* [4.4.2](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/vim)
+
 ### p7Zip
 * [16.02-16](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/p7zip)
 
@@ -30,9 +37,6 @@
 
 ### Rar UnRar
 * [5.4.0-1 5.4.0-1](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/rarunrar)
-
-### Dos2Unix
-* [7.4.2](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/dos2unix)
 
 ### Image Magick
 * [6.9.10-86](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/imagemagick)
