@@ -1,1 +1,1 @@
-[How to set up Surfshark on Linux]([https://www.digitalocean.com/community/tutorials/how-to-create-a-calibre-ebook-server-on-ubuntu-20-04](https://support.surfshark.com/hc/en-us/articles/5067279648146-How-to-set-up-Surfshark-on-Linux-))<br />
+[How to set up Surfshark on Linux](https://www.digitalocean.com/community/tutorials/how-to-create-a-calibre-ebook-server-on-ubuntu-20-04](https://support.surfshark.com/hc/en-us/articles/5067279648146-How-to-set-up-Surfshark-on-Linux-)<br />
