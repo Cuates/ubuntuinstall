@@ -8,10 +8,10 @@
   * i.e. `sudo ufw allow ssh`
 * Allow known services by port
   * `sudo ufw allow <port_number>`
-  * i.e. `sudo ufw allow 22`
+  * i.e. `sudo ufw allow 2222/tcp`
 * Deny Existing Rule
   * `sudo ufw deny <port_number>`
-  * i.e. `sudo ufw deny 22`
+  * i.e. `sudo ufw deny 2222`
 * Delete Deny Existing Rule
   * `sudo ufw delete deny <port_number>`
-  * i.e. `sudo ufw delete deny 1234`
+  * i.e. `sudo ufw delete deny 2222`
