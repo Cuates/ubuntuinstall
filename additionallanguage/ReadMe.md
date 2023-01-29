@@ -2,7 +2,7 @@
 > Installed and configured Packages
 
 ## Table of Contents
-* [Surfshark](#surfshark)
+
 * [Python](#python)
 * [PIP](#pip)
 * [Ruby](#ruby)
@@ -10,9 +10,6 @@
 * [Angular CLI](#angular-cli)
 * [React](#react)
 * [Vue](#vue)
-
-### Surfshark
-* [3.8.5](https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage/surfshark)
 
 ### Python
 * [3.8.5](https://github.com/Cuates/centosinstall/tree/master/additionallanguage/python)
