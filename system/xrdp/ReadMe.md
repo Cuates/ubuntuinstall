@@ -1,4 +1,4 @@
-* Note make sure ufw is enabled
+* Note: If ufw is not enable, then enable ufw
   * `sudo ufw enable`
 * Installing XRDP
   * `sudo apt-get install -y xrdp`
