@@ -12,7 +12,7 @@
 * [Vue](#vue)
 
 ### Python
-* [3.8.5](https://github.com/Cuates/centosinstall/tree/master/additionallanguage/python)
+* [3.10.6](https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage/python)
 
 ### PIP
 * [20.2.2](https://github.com/Cuates/centosinstall/tree/master/additionallanguage/python)
