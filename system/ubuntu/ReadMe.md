@@ -1,4 +1,4 @@
-[update ubuntu command line](https://www.makeuseof.com/update-ubuntu-command-line/)<br />
+[How to Update Ubuntu in the Command Line](https://www.makeuseof.com/update-ubuntu-command-line/)<br />
 [Why are upgradable packages not upgraded](https://askubuntu.com/questions/1181852/why-are-upgrable-packages-not-upgraded)<br />
 
 * `cat /etc/*-release`
