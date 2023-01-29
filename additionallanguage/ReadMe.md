@@ -12,7 +12,7 @@
 * [Vue](#vue)
 
 ### Surfshark
-* [3.8.5](https://github.com/Cuates/centosinstall/tree/master/additionallanguage/python)
+* [3.8.5](https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage/surfshark)
 
 ### Python
 * [3.8.5](https://github.com/Cuates/centosinstall/tree/master/additionallanguage/python)
