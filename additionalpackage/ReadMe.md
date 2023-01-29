@@ -32,7 +32,7 @@
 * [5.4.0-1 5.4.0-1](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/rarunrar)
 
 ### Dos2Unix
-* [7.4.0-3](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/dos2unix)
+* [7.4.2](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/dos2unix)
 
 ### Image Magick
 * [6.9.10-86](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/imagemagick)
