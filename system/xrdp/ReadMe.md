@@ -34,7 +34,7 @@
   * To allow traffic to port 3389 from anywhere use the commands below. Allowing access from anywhere is highly discouraged for security reasons.
     * `less /etc/services`
     * `sudo ufw allow 3389/tcp`
-  * **IMPORTANT NOTE For increased security, you may consider setting up Xrdp to listen only on localhost and creating an SSH tunnel that securely forwards traffic from your local machine on port 3389 to the server on the same port. Another secure option is to install OpenVPN and connect to the Xrdp server through the private network.**
+   * **IMPORTANT NOTE For increased security, you may consider setting up Xrdp to listen only on localhost and creating an SSH tunnel that securely forwards traffic from your local machine on port 3389 to the server on the same port. Another secure option is to install OpenVPN and connect to the Xrdp server through the private network.**
 * Connecting to the Xrdp Server
   * You can now start interacting with the remote desktop from your local machine using your keyboard and mouse.
   * If you are using macOS, you can install the Microsoft Remote Desktop application from the Mac App Store. Linux users can use an RDP client such as Remmina or Vinagre. Windows can use the Remote Desktop Connection (RDP) which is already installed on Windows.
