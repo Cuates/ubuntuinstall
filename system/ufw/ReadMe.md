@@ -9,3 +9,9 @@
 * Allow known services by port
   * `sudo ufw allow <port_number>`
   * i.e. `sudo ufw allow 22`
+* Deny Existing Rule
+  * `sudo ufw deny <port_number>`
+  * i.e. `sudo ufw deny 22`
+* Delete Deny Existing Rule
+  * `sudo ufw delete deny <port_number>`
+  * i.e. `sudo ufw delete deny 1234`
