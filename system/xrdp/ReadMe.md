@@ -1,4 +1,4 @@
-* Note: If ufw is not enable, then enable ufw
+* Note: If ufw is not enable, then enable [ufw](https://github.com/Cuates/ubuntuinstall/tree/main/system/ufw)
   * `sudo ufw enable`
 * Installing XRDP
   * `sudo apt-get install -y xrdp`
