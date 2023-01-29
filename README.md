@@ -15,18 +15,18 @@
 ### Version
 * 0.0.1
 
-### [System](https://github.com/Cuates/ubuntuinstall/blob/master/system)
+### [System](https://github.com/Cuates/ubuntuinstall/tree/main/system)
 
-### [Additional Package](https://github.com/Cuates/centosinstall/tree/master/additionalpackage)
+### [Additional Package](https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage)
 
-### [Additional Language](https://github.com/Cuates/centosinstall/tree/master/additionallanguage)
+### [Additional Language](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage)
 
-### [Client Server Protocol](https://github.com/Cuates/centosinstall/tree/master/clientseverprotocol)
+### [Client Server Protocol](https://github.com/Cuates/ubuntuinstall/tree/main/clientserverprotocol)
 
-### [Web Server](https://github.com/Cuates/centosinstall/tree/master/webserver)
+### [Web Server](https://github.com/Cuates/ubuntuinstall/tree/main/webserver)
 
-### [Server-side](https://github.com/Cuates/centosinstall/tree/master/serverside)
+### [Server-side](https://github.com/Cuates/ubuntuinstall/tree/main/serverside)
 
-### [Database](https://github.com/Cuates/centosinstall/tree/master/database)
+### [Database](https://github.com/Cuates/ubuntuinstall/tree/main/database)
 
-### [System Share](https://github.com/Cuates/centosinstall/tree/master/systemshare)
+### [System Share](https://github.com/Cuates/ubuntuinstall/tree/main/systemshare)
