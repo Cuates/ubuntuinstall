@@ -8,10 +8,10 @@
 * [ffmpeg](#ffmpeg)
 * [Git](#git)
 * [Image Magick](#image-magick)
+* [Nodejs](#nodejs)
 * [p7Zip](#p7zip)
 * [Zip UnZip](#zip-unzip)
 * [Rar UnRar](#rar-unrar)
-* [Node](#node)
 * [NPM](#npm)
 * [Calibre](#calibre)
 * [qBittorrent](#qbittorrent)
@@ -35,6 +35,9 @@
 * [6.9.11-60](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/imagemagick)
   * [PHP Dependent](https://github.com/Cuates/centosinstall/tree/master/serverside/php)
 
+### Nodejs
+* [18.13.0](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/nodejs)
+
 ### p7Zip
 * [16.02-16](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/p7zip)
 
@@ -44,9 +47,6 @@
 
 ### Rar UnRar
 * [5.4.0-1 5.4.0-1](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/rarunrar)
-
-### Node
-* [15.3.0](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/node)
 
 ### NPM
 * [6.14.4-1.10.21.0.3](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/npm)
