@@ -7,10 +7,10 @@
 * [Dos2Unix](#dos2unix)
 * [ffmpeg](#ffmpeg)
 * [Git](#git)
+* [Image Magick](#image-magick)
 * [p7Zip](#p7zip)
 * [Zip UnZip](#zip-unzip)
 * [Rar UnRar](#rar-unrar)
-* [Image Magick](#image-magick)
 * [Node](#node)
 * [NPM](#npm)
 * [Calibre](#calibre)
@@ -31,6 +31,10 @@
 ### Git
 * [2.34.1](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/git)
 
+### Image Magick
+* [6.9.11-60](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/imagemagick)
+  * [PHP Dependent](https://github.com/Cuates/centosinstall/tree/master/serverside/php)
+
 ### p7Zip
 * [16.02-16](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/p7zip)
 
@@ -40,10 +44,6 @@
 
 ### Rar UnRar
 * [5.4.0-1 5.4.0-1](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/rarunrar)
-
-### Image Magick
-* [6.9.10-86](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/imagemagick)
-  * [PHP Dependent](https://github.com/Cuates/centosinstall/tree/master/serverside/php)
 
 ### Node
 * [15.3.0](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/node)
