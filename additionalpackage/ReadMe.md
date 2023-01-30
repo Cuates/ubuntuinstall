@@ -6,11 +6,11 @@
 * [Vim](#vim)
 * [Dos2Unix](#dos2unix)
 * [ffmpeg](#ffmpeg)
+* [Git](#git)
 * [p7Zip](#p7zip)
 * [Zip UnZip](#zip-unzip)
 * [Rar UnRar](#rar-unrar)
 * [Image Magick](#image-magick)
-* [Git](#git)
 * [Node](#node)
 * [NPM](#npm)
 * [Calibre](#calibre)
@@ -28,6 +28,9 @@
 ### ffmpeg
 * [4.4.2](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/ffmpeg)
 
+### Git
+* [2.34.1](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/git)
+
 ### p7Zip
 * [16.02-16](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/p7zip)
 
@@ -41,9 +44,6 @@
 ### Image Magick
 * [6.9.10-86](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/imagemagick)
   * [PHP Dependent](https://github.com/Cuates/centosinstall/tree/master/serverside/php)
-
-### Git
-* [2.18.4-2](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/git)
 
 ### Node
 * [15.3.0](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/node)
