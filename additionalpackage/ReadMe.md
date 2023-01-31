@@ -10,7 +10,6 @@
 * [Image Magick](#image-magick)
 * [Nodejs](#nodejs)
 * [p7Zip](#p7zip)
-* [Zip UnZip](#zip-unzip)
 * [Rar UnRar](#rar-unrar)
 * [NPM](#npm)
 * [Calibre](#calibre)
@@ -40,10 +39,6 @@
 
 ### p7Zip
 * [16.02-16](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/p7zip)
-
-### Zip UnZip
-* [3.0-23 6.0-43](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/zipunzip)
-  * [PHP Dependent](https://github.com/Cuates/centosinstall/tree/master/serverside/php)
 
 ### Rar UnRar
 * [5.4.0-1 5.4.0-1](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/rarunrar)
