@@ -10,6 +10,7 @@
 * [XRDP](#xrdp)
 * [Terminal](#terminal)
 * [Podman-Compose](#podmancompose)
+* [Snap Store](#snap-store)
 
 ### CentOS
 * [8.2.2004](https://github.com/Cuates/centosinstall/blob/master/system/centos)
@@ -34,3 +35,6 @@
 
 ### Podman-Compose
 * [1.0.3-3.el9](https://github.com/Cuates/centosinstall/tree/master/system/podmancompose)
+
+### Snap-Store
+* [1](https://github.com/Cuates/ubuntuinstall/tree/main/system/snap)
