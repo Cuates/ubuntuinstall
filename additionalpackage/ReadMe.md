@@ -11,8 +11,6 @@
 * [Nodejs](#nodejs)
 * [p7Zip](#p7zip)
 * [Rar UnRar](#rar-unrar)
-* [NPM](#npm)
-* [Calibre](#calibre)
 * [qBittorrent](#qbittorrent)
 
 ### Surfshark
@@ -41,13 +39,7 @@
 * [16.02-16](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/p7zip)
 
 ### Rar UnRar
-* [5.4.0-1 5.4.0-1](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/rarunrar)
-
-### NPM
-* [6.14.4-1.10.21.0.3](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/npm)
-
-### Calibre
-* [5.3.0](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/calibre)
+* [5.50 6.11](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/rarunrar)
 
 ### qBittorrent
 * [4.2.5](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/qbittorrent)
