@@ -39,7 +39,7 @@
 * [18.13.0](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/nodejs)
 
 ### p7Zip
-* [16.02-16](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/p7zip)
+* [16.02-16](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/p7zip)
 
 ### Zip UnZip
 * [3.0-23 6.0-43](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/zipunzip)
