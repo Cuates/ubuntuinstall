@@ -26,10 +26,10 @@
   * [Ruby Dependent](https://github.com/Cuates/centosinstall/tree/master/additionallanguage/ruby)
 
 ### Angular CLI
-* [10.0.5](https://github.com/Cuates/centosinstall/tree/master/additionallanguage/angularcli)
+* [10.0.5](https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage/angularcli)
 
 ### React
-* [1](https://github.com/Cuates/centosinstall/tree/master/additionallanguage/react)
+* [1](https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage/react)
 
 ### Vue
-* [2.9.6](https://github.com/Cuates/centosinstall/tree/master/additionallanguage/vue)
+* [2.9.6](https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage/vue)
