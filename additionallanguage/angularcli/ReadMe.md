@@ -1,6 +1,6 @@
 [Angular Cli Version](https://angular.io/cli/version)<br />
 
-* **NOTE Install Nodejs and npm first**
+* **NOTE Install [Nodejs](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/nodejs) and npm first**
 * `npm install -g @angular/cli`
   * **WAIT FOR THIS TO FINISH**
 * Check global versions of the web application
