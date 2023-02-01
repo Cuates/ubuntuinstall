@@ -22,8 +22,8 @@
 * [3.2.0](https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage/ruby)
 
 ### Rails
-* [6.0.3.2](https://github.com/Cuates/centosinstall/tree/master/additionallanguage/rails)
-  * [Ruby Dependent](https://github.com/Cuates/centosinstall/tree/master/additionallanguage/ruby)
+* [7.0.4.2](https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage/rails)
+  * [Ruby Dependent](https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage/ruby)
 
 ### Angular CLI
 * [10.0.5](https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage/angularcli)
