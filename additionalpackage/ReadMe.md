@@ -47,7 +47,7 @@
 * [1.74.3](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/vscode)
 
 ### Vivaldi
-* []()
+* [5.6.2867.62](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/vivaldi)
 
 ### qBittorrent
 * [4.2.5](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/qbittorrent)
