@@ -1,6 +1,6 @@
-(Install Ruby On Rails on Ubuntu 22.04 Jammy Jellyfish)[https://gorails.com/setup/ubuntu/22.04]<br />
+[Install Ruby On Rails on Ubuntu 22.04 Jammy Jellyfish](https://gorails.com/setup/ubuntu/22.04)<br />
 
-* Dependency (Ruby)[https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage/ruby]
+* Dependency [Ruby](https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage/ruby)
 * Choose Version of Rails to Install
   * `gem install rails -v 7.0.4.2`
     * **WAIT FOR THIS TO FINISH**
