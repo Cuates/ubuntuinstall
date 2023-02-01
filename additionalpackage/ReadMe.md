@@ -44,7 +44,7 @@
 * [5.50 6.11](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/rarunrar)
 
 ### VSCode
-* [1.74.3]()
+* [1.74.3](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/vscode)
 
 ### Vivaldi
 * []()
