@@ -11,6 +11,8 @@
 * [Nodejs](#nodejs)
 * [p7Zip](#p7zip)
 * [Rar UnRar](#rar-unrar)
+* [VSCode](#vscode)
+* [Vivaldi](#vivaldi)
 * [qBittorrent](#qbittorrent)
 
 ### Surfshark
@@ -40,6 +42,12 @@
 
 ### Rar UnRar
 * [5.50 6.11](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/rarunrar)
+
+### VSCode
+* [1.74.3]()
+
+### Vivaldi
+* []()
 
 ### qBittorrent
 * [4.2.5](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/qbittorrent)
