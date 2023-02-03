@@ -47,7 +47,7 @@
   * `systemctl status qbittorrent-nox`
 * Add Port 8080 in Router
 * Add Port in [UFW](https://github.com/Cuates/ubuntuinstall/tree/main/system/ufw)
-  * `sudo ufw allow 8080`
+  * `sudo ufw allow 8080/tcp`
 * Visit qBittorent webUI
   * http://<ip_address>:8080
   * http://localhost:8080
