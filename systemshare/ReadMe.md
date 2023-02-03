@@ -21,3 +21,6 @@
 ### Fstab
 * [1](https://github.com/Cuates/ubuntuinstall/tree/main/systemshare/fstab)
   * [CIFS Dependent](https://github.com/Cuates/ubuntuinstall/tree/main/systemshare/cifs)
+
+### NTFS
+* [1]()
