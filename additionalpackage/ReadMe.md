@@ -14,6 +14,7 @@
 * [VSCode](#vscode)
 * [Vivaldi](#vivaldi)
 * [qBittorrent](#qbittorrent)
+* [Jellyfin](#jellyfin)
 * [Arr](#arr)
 * [Podman](#podman)
 * [Docker](#docker)
@@ -53,7 +54,10 @@
 * [5.6.2867.62](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/vivaldi)
 
 ### qBittorrent
-* [4.2.5](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/qbittorent)
+* [4.5.0](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/qbittorent)
+
+### Jellyfin
+* [1](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/jellyfin)
 
 ### Arr
 * [1](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/arr)
