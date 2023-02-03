@@ -41,7 +41,9 @@
           listen.group = nginx
         </pre>
   * Save and Exit
-* Check PHP-FPM Service is running
+* PHP-FPM Restart Service
+  *  `sudo systemctl restart php8.2-fpm`
+* PHP-FPM Status Service
   *  `sudo systemctl status php8.2-fpm`
 * Create file (if not already created) /etc/nginx/conf.d/<server.name.net>
   * `sudo vim /etct/nginx/conf.d/<server.name.net>`
