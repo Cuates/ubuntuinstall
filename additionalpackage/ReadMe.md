@@ -14,6 +14,7 @@
 * [VSCode](#vscode)
 * [Vivaldi](#vivaldi)
 * [qBittorrent](#qbittorrent)
+* [Arr](#arr)
 
 ### Surfshark
 * [1.2.6](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/surfshark)
@@ -51,3 +52,6 @@
 
 ### qBittorrent
 * [4.2.5](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/qbittorrent)
+
+### Arr
+* [1](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/arr)
