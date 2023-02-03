@@ -1,4 +1,5 @@
 [Certbot](https://certbot.eff.org)<br />
+[Enable HTTP 2 In Nginx](https://www.tecmint.com/enable-http-2-in-nginx/)<br />
 
 * Prerequisite
   * Nginx
