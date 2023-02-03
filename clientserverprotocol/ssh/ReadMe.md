@@ -1,4 +1,5 @@
 [How to Enable SSH Service in Ubuntu 22.04 LTS](https://ubuntuhandbook.org/index.php/2022/04/enable-ssh-ubuntu-22-04)<br />
+[UFW](https://github.com/Cuates/ubuntuinstall/tree/main/system/ufw)<br />
 
 * `sudo apt-get install -y ssh`
 * `sudo systemctl status sshd`
@@ -19,3 +20,6 @@
     * PermitRootLogin no
 * `sudo systemctl restart sshd`
 * `sudo systemctl status sshd`
+* Open port in ufw
+  * `sudo ufw allow ssh`
+  * `sudo ufw status verbose`
