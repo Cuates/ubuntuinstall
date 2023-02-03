@@ -53,7 +53,7 @@
   * http://localhost:8080
 
 * Set up the setting for qBittorrent
-  ** These are based on Windows application settings **
+  * **These are based on Windows application settings**
   * Behavior
     * Interface
       * Language
