@@ -6,8 +6,8 @@
 * [CIFS](#cifs)
 
 ### Samba
-* [4.15.13-Ubuntu](https://github.com/Cuates/centosinstall/tree/master/systemshare/samba)
+* [4.15.13-Ubuntu](https://github.com/Cuates/ubuntuinstall/tree/main/systemshare/samba)
 
 ### CIFS
 * [6.8-3](https://github.com/Cuates/ubuntuinstall/tree/main/systemshare/cifs)
-  * [Samba Dependent](https://github.com/Cuates/centosinstall/tree/master/systemshare/samba)
+  * [Samba Dependent](https://github.com/Cuates/ubuntuinstall/tree/main/systemshare/samba)
