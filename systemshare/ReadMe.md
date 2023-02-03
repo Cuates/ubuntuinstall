@@ -4,10 +4,15 @@
 ## Table of Contents
 * [Samba](#samba)
 * [CIFS](#cifs)
+* [AutoFS[(#autofs)
 
 ### Samba
 * [4.15.13-Ubuntu](https://github.com/Cuates/ubuntuinstall/tree/main/systemshare/samba)
 
 ### CIFS
-* [6.8-3](https://github.com/Cuates/ubuntuinstall/tree/main/systemshare/cifs)
+* [2:6.14-1ubuntu0.1](https://github.com/Cuates/ubuntuinstall/tree/main/systemshare/cifs)
+  * [Samba Dependent](https://github.com/Cuates/ubuntuinstall/tree/main/systemshare/samba)
+
+### AutoFS
+* [5.1.8-1ubuntu1.2](https://github.com/Cuates/ubuntuinstall/tree/main/systemshare/cifs)
   * [Samba Dependent](https://github.com/Cuates/ubuntuinstall/tree/main/systemshare/samba)
