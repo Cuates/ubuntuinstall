@@ -7,6 +7,8 @@
 * Allow through [UFW](https://github.com/Cuates/ubuntuinstall/tree/main/system/ufw)
   * `sudo ufw status verbose`
   * `sudo ufw allow samba`
+* Samba version
+  * `samba --version`
 
 ### Creating and Sharing Linux File Share
 * Delete an Existing Group
