@@ -41,3 +41,5 @@
     * <?php phpinfo(); ?>
   * Save and exit
   * Visit php file
+* ADD PHP better performance from URL https://linuxbuz.com/linuxhowto/install-php-8-on-ubuntu-20-04-with-apache-and-nginx
+* CHANGE TIMEZONE from URL https://www.thegeekstuff.com/2010/09/change-timezone-in-linux/
