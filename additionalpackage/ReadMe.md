@@ -15,6 +15,8 @@
 * [Vivaldi](#vivaldi)
 * [qBittorrent](#qbittorrent)
 * [Arr](#arr)
+* [Podman](#podman)
+* [Docker](#docker)
 
 ### Surfshark
 * [1.2.6](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/surfshark)
@@ -55,3 +57,9 @@
 
 ### Arr
 * [1](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/arr)
+
+### Podman
+* [1]()
+
+### Docker
+* [1]()
