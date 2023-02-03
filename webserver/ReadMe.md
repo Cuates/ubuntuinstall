@@ -9,4 +9,4 @@
 * [1.22.1](https://github.com/Cuates/ubuntuinstall/tree/main/webserver/nginx)
 
 ### Certbot
-* [1](https://github.com/Cuates/ubuntuinstall/tree/main/webserver/certbot)
+* [2.2.0](https://github.com/Cuates/ubuntuinstall/tree/main/webserver/certbot)
