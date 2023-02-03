@@ -1,3 +1,5 @@
+[How to install SAMBA on Ubuntu 22 04 LTS Jammy Linux](https://www.how2shout.com/linux/how-to-install-samba-on-ubuntu-22-04-lts-jammy-linux)<br />
+
 * Install Samba
   * `sudo apt-get install -y samba samba-common samba-client`
 * Check status
