@@ -4,6 +4,7 @@
 [How to Install PHP 8 on Ubuntu 20.04 with Apache and Nginx](https://linuxbuz.com/linuxhowto/install-php-8-on-ubuntu-20-04-with-apache-and-nginx)<br />
 [php fpm sock failed 13 permission denied Fix it now](https://bobcares.com/blog/php-fpm-sock-failed-13-permission-denied)<br />
 [Connection issue with nginx and php fpm on ubuntu 22.04 LTS](https://serverfault.com/questions/1107574/connection-issue-with-nginx-and-php-fpm-on-ubuntu-22-04-lts)<br />
+[Configure PHP FPM with Nginx on Ubuntu 22 04](https://www.rosehosting.com/blog/configure-php-fpm-with-nginx-on-ubuntu-22-04)<br />
 
 * Update System
   * `sudo apt-get update`
