@@ -6,7 +6,7 @@
 * [Telnet](#telnet)
 
 ### SSH
-* [8.0p1-4](https://github.com/Cuates/centosinstall/tree/master/clientseverprotocol/ssh)
+* [1:8.9P1-3ubuntu0.1](https://github.com/Cuates/ubuntuinstall/tree/main/clientserverprotocol/ssh)
 
 ### Telnet
 * [0.17-73](https://github.com/Cuates/centosinstall/tree/master/clientseverprotocol/telnet)
