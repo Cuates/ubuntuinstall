@@ -6,6 +6,7 @@
 * [CIFS](#cifs)
 * [AutoFS](#autofs)
 * [Fstab](#fstab)
+* [NTFS](#ntfs)
 
 ### Samba
 * [4.15.13-Ubuntu](https://github.com/Cuates/ubuntuinstall/tree/main/systemshare/samba)
