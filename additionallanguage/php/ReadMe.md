@@ -2,6 +2,7 @@
 [PHP 8.2 Released, How to Install in Ubuntu 22.04 20.04 via PPA](https://ubuntuhandbook.org/index.php/2022/12/php-8-2-ubuntu-ppa/)<br />
 [Install PHP 8 for Apache and NGINX on Ubuntu](https://www.linode.com/docs/guides/install-php-8-for-apache-and-nginx-on-ubuntu/)<br />
 [How to Install PHP 8 on Ubuntu 20.04 with Apache and Nginx](https://linuxbuz.com/linuxhowto/install-php-8-on-ubuntu-20-04-with-apache-and-nginx)<br />
+[php fpm sock failed 13 permission denied Fix it now](https://bobcares.com/blog/php-fpm-sock-failed-13-permission-denied)<br />
 
 * Update System
   * `sudo apt-get update`
@@ -18,20 +19,51 @@
   * `php --version`
 * Install Modules
   * `sudo apt-get install -y php8.2-{cli,common,sybase,curl,fpm,mysql,opcache,gd,xml,mbstring,pgsql,odbc,memcached,bcmatch,dba,imap,intl,ldap,mcrypt,tidy,xmlrpc}`
+* Modify file /etc/php/8.2/fpm/pool.d/www.conf
+  * `sudo vim /etc/php/8.2/fpm/pool.d/www.conf`
+    * WAS
+      * <pre>
+          user = www-data
+          group = www-data
+          listen.owner = www-data
+          listen.group = www-data
+        </pre>
+    * IS
+      * <pre>
+          user = nginx
+          group = nginx
+          listen.owner = nginx
+          listen.group = nginx
+        </pre>
+  * Save and Exit
 * Check PHP-FPM Service is running
   *  `sudo systemctl status php8.2-fpm`
-* Configure sites-available Default file
-  * `sudo vim /etc/nginx/conf.d/default`
-    * Add index.php to the other index lines
-      * index index.php ...
-    * Uncomment the following lines
-      * <pre>
-          location ~ \.php$ {
-            include snippets/fastcgi-php.conf;
-            fastcgi_pass unix:/run/php/php8.2-fpm.sock;
+* Create file /etc/nginx/conf.d/<server.name.net>
+  * `sudo vim /etct/nginx/conf.d/<server.name.net>`
+    * Add the following
+    * <pre>
+        serve {
+          root /var/www/html;
+          index index.html index.htm index.php
+          
+          server_name <server.name.net>;
+          
+          location / {
+            try_files $uri $uri/ =404;
           }
-        </pre>
-  * Save and exit
+          
+          location ~ \.php$ {
+            try_files $uri =404;
+            fastcgi_intercept_errors on;
+            fastcgi_index index.php;
+            include fastcgi_params;
+            fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+            fastcgi_slit_path_info ^(.+\.php)(/.+)$;
+            fastcgi_pass unix:/var/run/php/php8.2-fpm.sock;
+          }
+        }
+      </pre>
+  * Save and Exit
 * Verify Nginx Configuration
   * `sudo nginx -t`
 * Restart Nginx Service
