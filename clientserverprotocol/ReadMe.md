@@ -9,4 +9,4 @@
 * [1:8.9P1-3ubuntu0.1](https://github.com/Cuates/ubuntuinstall/tree/main/clientserverprotocol/ssh)
 
 ### Telnet
-* [0.17-73](https://github.com/Cuates/centosinstall/tree/master/clientseverprotocol/telnet)
+* [0..17-44build1](https://github.com/Cuates/ubuntuinstall/tree/main/clientserverprotocol/telnet)
