@@ -20,7 +20,7 @@
 * Check PHP-FPM Service is running
   *  `sudo systemctl status php8.2-fpm`
 * Configure sites-available Default file
-  * `sudo vim /etc/nginx/sites-available/default`
+  * `sudo vim /etc/nginx/conf.d/default`
     * Add index.php to the other index lines
       * index index.php ...
     * Uncomment the following lines
@@ -35,3 +35,8 @@
   * `sudo nginx -t`
 * Restart Nginx Service
   * `sudo systemctl restart nginx`
+* Create a simple PHP file
+  * `sudo vim /var/www/html/info.php`
+    * <?php phpinfo(); ?>
+  * Save and exit
+  * Visit php file
