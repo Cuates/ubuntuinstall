@@ -8,3 +8,7 @@
   * Type password with root access
 * `sudo apt-get update`
 * `sudo apt-get upgrade`
+
+* An error occured during the signature verification. The repository is not updated and the previous index files will be used. GPG error: stretch InRelease the following signatures were invalid Surfshark package maintainer
+ * Resolution
+   * Execute the steps above
