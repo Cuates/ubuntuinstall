@@ -10,6 +10,7 @@
 * [Angular CLI](#angular-cli)
 * [React](#react)
 * [Vue](#vue)
+* [PHP](#php)
 
 ### Python
 * [3.10.6](https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage/python)
@@ -33,3 +34,6 @@
 
 ### Vue
 * [2.9.6](https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage/vue)
+
+### PHP
+* [8.2.1[(https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage/php)
