@@ -35,7 +35,7 @@
 
 ### Image Magick
 * [6.9.11-60](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/imagemagick)
-  * [PHP Dependent](https://github.com/Cuates/centosinstall/tree/master/serverside/php)
+  * [PHP Dependent](https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage/php)
 
 ### Nodejs
 * [18.13.0](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/nodejs)
@@ -53,7 +53,7 @@
 * [5.6.2867.62](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/vivaldi)
 
 ### qBittorrent
-* [4.2.5](https://github.com/Cuates/centosinstall/tree/master/additionalpackage/qbittorrent)
+* [4.2.5](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/qbittorent)
 
 ### Arr
 * [1](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/arr)
