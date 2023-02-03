@@ -14,3 +14,6 @@
 * PHP Version
   * `php -v`
   * `php --version`
+* Install Modules
+  * `sudo apt-get install -y php8.2-{cli,common,sybase,curl,fpm,mysql,opcache,gd,xml,mbstring,pgsql,odbc,memcached,bcmatch,dba,imap,intl,ldap,mcrypt,tidy,xmlrpc}`
+* Enable 
