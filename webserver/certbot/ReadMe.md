@@ -114,43 +114,6 @@
     /etc/cron.*/*
     systemctl list-timers
 * Add Protocols h2 (HTTP/2) to the port 443 Certbot generated file
-  * `sudo vim /etc/httpd/conf.d/<domain_name>-le-ssl.conf`
-    * Paste the HTTP/2 section into the below file
-      * <pre>
-        &lt;IfModule mod_ssl.c&gt;
-          &lt;VirtualHost *:443&gt;
-            ServerName &lt;domain_name&gt;
-            ServerAlias &lt;domain_name&gt;
-            ServerAdmin webmaster@example.com
-            DocumentRoot /var/www/html
-            &lt;Directory /var/www/html&gt;
-              Options FollowSymLinks
-              AllowOverride None
-              Order allow,deny
-              Allow from all
-            &lt;/Directory&gt;
-            ErrorLog /var/log/httpd/&lt;domain_name&gt;-error.log
-            CustomLog /var/log/httpd/&lt;domain_name&gt;-access.log combined
-        
-            # Enable HTTP/2, if available
-            Protocols h2 http/1.1
-        
-            SSLCertificateFile /etc/letsencrypt/live/&lt;domain_name&gt;/fullchain.pem
-            SSLCertificateKeyFile /etc/letsencrypt/live/&lt;domain_name&gt;/privkey.pem
-            Include /etc/letsencrypt/options-ssl-apache.conf
-          &lt;/VirtualHost&gt;
-        &lt;/IfModule&gt;
-        </pre>
-  * Save and exit
-  * Test the apache configuration
-    * `sudo apachectl configtest`
-  * Restart apache/httpd
-    * `sudo systemctl restart httpd`
-  * Test HTTP/2 Protocol
-    * `curl -I --http2 -s https://<domain_name>/ | grep HTTP`
-      * A message of HTTP/2 200 will display
-      * Else a message of HTTP/1.1 200 OK if HTTP/2 did not work
-* Add Protocols h2 (HTTP/2) to the port 443 Certbot generated file
   * `sudo vim /etc/nginx/conf.d/<domain_name>-le-ssl.conf`
     * Paste the HTTP/2 section into the below file
       * <pre>
@@ -159,7 +122,6 @@
           access_log  /var/log/nginx/&lt;yourdomainname&gt;_access.log;
           error_log  /var/log/nginx/&lt;yourdomainname&gt;_error.log;
 
-          listen [::]:443 ssl ipv6only=on http2; # managed by Certbot
           listen 443 ssl http2; # managed by Certbot
 
           ssl_certificate /etc/letsencrypt/live/&lt;yourdomainname&gt;/fullchain.pem; # managed by Certbot
