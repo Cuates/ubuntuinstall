@@ -38,7 +38,7 @@
   * Save and Exit
 * Check PHP-FPM Service is running
   *  `sudo systemctl status php8.2-fpm`
-* Create file /etc/nginx/conf.d/<server.name.net>
+* Create file (if not already created) /etc/nginx/conf.d/<server.name.net>
   * `sudo vim /etct/nginx/conf.d/<server.name.net>`
     * Add the following
     * <pre>
