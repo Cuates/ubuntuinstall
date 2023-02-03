@@ -8,7 +8,7 @@
 * Log into the router and port forward SSH (port 22) to the Linux machine, so traffic can be redirected
 * `sudo vim /etc/ssh/sshd_config`
   * WAS
-    * # Port 22
+    * #Port 22
     * PermitRootLogin=yes
     * OR
     * #PermitRootLogin prohibit-password
