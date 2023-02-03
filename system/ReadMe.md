@@ -12,14 +12,11 @@
 * [Podman-Compose](#podmancompose)
 * [Snap Store](#snap-store)
 
-### CentOS
+### Ubuntu
 * [8.2.2004](https://github.com/Cuates/centosinstall/blob/master/system/centos)
 
-### DNF
+### APT
 * [4.2.17](https://github.com/Cuates/centosinstall/tree/master/system/dnf)
-
-### Remi
-* [8.1-2](https://github.com/Cuates/centosinstall/tree/master/system/remi)
 
 ### Net-Tools
 * [2.10-alpha](https://github.com/Cuates/ubuntuinstall/tree/main/system/nettools)
