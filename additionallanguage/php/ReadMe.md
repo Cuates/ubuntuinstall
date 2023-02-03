@@ -24,6 +24,7 @@
 * Install Modules
   * `sudo apt-get install -y php8.2-{cli,common,sybase,curl,fpm,mysql,opcache,gd,xml,mbstring,pgsql,odbc,memcached,bcmatch,dba,imap,intl,ldap,mcrypt,tidy,xmlrpc}`
 * Modify file /etc/php/8.2/fpm/pool.d/www.conf
+  * **IMPORTANT STEP**
   * `sudo vim /etc/php/8.2/fpm/pool.d/www.conf`
     * WAS
       * <pre>
