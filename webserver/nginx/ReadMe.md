@@ -37,3 +37,19 @@
     * `sudo systemctl stop nginx`
   * Remove Nginx
     * `sudo apt autoremove -y nginx*`
+* Additional Commands
+  * Start service and Enable service at boot up
+    * `sudo systemctl enable --now nginx`
+  * Stop Nginx Service
+    * `sudo systemctl stop nginx`
+  * Restart Nginx Service
+    * `sudo systemctl restart nginx`
+  * Reload the configuration files without stopping the service
+    * `sudo systemctl reload nginx`
+  * To check if it is enabled on startup
+    * `sudo systemctl is-enabled nginx`
+  * Disable the Nginx service from startup
+    * `sudo systemctl disable nginx`
+  * To test Nginx
+    * `sudo service nginx configtest`
+    * `sudo nginx -t`
