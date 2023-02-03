@@ -5,6 +5,8 @@
 [php fpm sock failed 13 permission denied Fix it now](https://bobcares.com/blog/php-fpm-sock-failed-13-permission-denied)<br />
 [Connection issue with nginx and php fpm on ubuntu 22.04 LTS](https://serverfault.com/questions/1107574/connection-issue-with-nginx-and-php-fpm-on-ubuntu-22-04-lts)<br />
 [Configure PHP FPM with Nginx on Ubuntu 22 04](https://www.rosehosting.com/blog/configure-php-fpm-with-nginx-on-ubuntu-22-04)<br />
+[How To Install Linux Nginx MySQL PHP LEMP stack on Ubuntu 22 04](https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-22-04)<br />
+[How To 2 Methods To Change TimeZone in Linux](https://www.thegeekstuff.com/2010/09/change-timezone-in-linux/)<br />
 
 * Update System
   * `sudo apt-get update`
@@ -66,6 +68,29 @@
         }
       </pre>
   * Save and Exit
+* Modify file /etc/php/8.2/fpm/php.ini (Better performance)
+  * `sudo vim /etc/php/8.2/fpm/php.ini`
+    * Was
+      * <pre>
+          upload_max_filesize = 2M
+          post_max_size = 8M
+          memory_limit = 128M
+          max_execution_time = 30
+          max_input_vars = 1000
+          max_input_time = 60
+          date.timezone =
+        </pre>
+    * Is
+      * <pre>
+          upload_max_filesize = 32M
+          post_max_size = 32M
+          memory_limit = 256M
+          max_execution_time = 500
+          max_input_vars = 3000
+          max_input_time = 1000
+          date.timezone = America/Los_Angeles
+        </pre>
+  * Save and Exit
 * Verify Nginx Configuration
   * `sudo nginx -t`
 * Restart Nginx Service
@@ -74,7 +99,4 @@
   * `sudo vim /var/www/html/info.php`
     * <?php phpinfo(); ?>
   * Save and exit
-  * Visit php file
-* ADD PHP better performance from URL https://linuxbuz.com/linuxhowto/install-php-8-on-ubuntu-20-04-with-apache-and-nginx
-* CHANGE TIMEZONE from URL https://www.thegeekstuff.com/2010/09/change-timezone-in-linux/
-* https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-22-04
+  * Visit php file on browser
