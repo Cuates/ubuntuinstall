@@ -156,16 +156,16 @@
     * Torrent Queueing
       * Maximum Active Downloads
         * Choose number in queue
-         * i.e. (Infinity)
-         * **Note** Your connection speed may vary
+          * i.e. (Infinity)
+          * **Note** Your connection speed may vary
       * Maximum Active Uploads
-       * Choose number in queue
-        * i.e. 1
-        * **Note** If you set this value higher than your connection speed may vary
+        * Choose number in queue
+          * i.e. 1
+          * **Note** If you set this value higher than your connection speed may vary
       * Maximum Active Torrents
         * Choose number in queue
-         * i.e. (Infinity)
-         * **Note** Your connection speed may vary
+          * i.e. (Infinity)
+          * **Note** Your connection speed may vary
       * Check
         * Do not count slow torrents in these limits
       * Download rate threshold
@@ -264,5 +264,5 @@
       * i.e. 90 %
     * Peer Turnover diconnect interval
       * i.e. 300 s
-    * Maximum outstandin request to a single peer
+    * Maximum outstanding request to a single peer
       * i.e. 500
