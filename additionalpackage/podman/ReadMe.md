@@ -7,3 +7,4 @@
 * Podman
 
 * Podman Compose
+  * Dependency [Python/PIP](https://github.com/Cuates/ubuntuinstall/tree/main/additionallanguage/python)
