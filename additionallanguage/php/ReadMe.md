@@ -18,4 +18,20 @@
 * Install Modules
   * `sudo apt-get install -y php8.2-{cli,common,sybase,curl,fpm,mysql,opcache,gd,xml,mbstring,pgsql,odbc,memcached,bcmatch,dba,imap,intl,ldap,mcrypt,tidy,xmlrpc}`
 * Check PHP-FPM Service is running
- *  `sudo systemctl status php8.2-fpm`
+  *  `sudo systemctl status php8.2-fpm`
+* Configure sites-available Default file
+  * `sudo vim /etc/nginx/sites-available/default`
+    * Add index.php to the other index lines
+      * index index.php ...
+    * Uncomment the following lines
+      * <pre>
+          location ~ \.php$ {
+            include snippets/fastcgi-php.conf;
+            fastcgi_pass unix:/run/php/php8.2-fpm.sock;
+          }
+        </pre>
+  * Save and exit
+* Verify Nginx Configuration
+  * `sudo nginx -t`
+* Restart Nginx Service
+  * `sudo systemctl restart nginx`
