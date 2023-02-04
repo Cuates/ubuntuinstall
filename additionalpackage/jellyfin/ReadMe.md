@@ -2,6 +2,7 @@
 [How to Install Jellyfin Media Server on Ubuntu 22 04 LTS](https://www.linuxcapable.com/how-to-install-jellyfin-media-server-on-ubuntu-22-04-lts)<br />
 [Jellyfin Skin Manager Plugin](https://github.com/danieladov/jellyfin-plugin-skin-manager)<br />
 [Jellyfin Plugin ThePornDB](https://github.com/ThePornDatabase/Jellyfin.Plugin.ThePornDB)<br />
+[Intro Skipper](https://github.com/ergoz/jellyfin-intro-skipper)<br />
 
 * Include Default Ubuntu repository
   * `echo "deb [signed-by=/etc/apt/keyrings/jeyllyfin_team.gpg.key arch=$( dpkg --print-architecture )] https://repo.jellyfin.org/ubuntu $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/jellyfin.list`
