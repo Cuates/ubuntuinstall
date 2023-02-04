@@ -36,3 +36,5 @@
  * Add Server
    * Connect to Server
      * Host
+   * Provide Username and password
+   * Click Login
