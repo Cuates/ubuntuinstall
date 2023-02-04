@@ -29,7 +29,7 @@
    * United States
    * Click Next
  * Setup remote access
-   * Uncheck both boxes (This does not provide HTTPS encryption natively)
+   * Check box Allow remote connections to this server
    * Click Next
  * Click finish
  * Add Server
