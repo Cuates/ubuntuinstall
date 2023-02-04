@@ -15,3 +15,23 @@
 * Add Port 8096 in Router
 * Add Port in [UFW](https://github.com/Cuates/ubuntuinstall/tree/main/system/ufw)
   * `sudo ufw allow 8096/tcp`
+
+* Jellyfin Setup
+ * Preferred Display Lanuage
+   * English
+   * Click Next
+ * Username and Password
+   * Click Next
+ * Wait to add media library
+   * Click Next
+ * Preferred metadata language
+   * English
+   * United States
+   * Click Next
+ * Setup remote access
+   * Uncheck both boxes (This does not provide HTTPS encryption natively)
+   * Click Next
+ * Click finish
+ * Add Server
+   * Connect to Server
+     * Host
