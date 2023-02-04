@@ -6,7 +6,7 @@
 * [UnixODBC](#unixodbc)
 * [MSSQL](#mssql)
 * [MariaDB](#mariadb)
-* [PostgreSQL)(#postgresql)
+* [PostgreSQL](#postgresql)
 
 ### FreeTDS
 * [1.1.20-1](https://github.com/Cuates/centosinstall/tree/master/database/freetds)
