@@ -8,3 +8,4 @@
   * `sudo bash ArrInstall.sh`
 * Follow on screen instruction
   * Default should be sufficient
+  * **WAIT FOR THIS TO FINISH**
