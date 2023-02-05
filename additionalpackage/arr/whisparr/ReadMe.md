@@ -12,6 +12,6 @@
 * Add Port 6969 in Router
 * Add Port in [UFW](https://github.com/Cuates/ubuntuinstall/tree/main/system/ufw)
   * `sudo ufw allow 6969/tcp`
-* Visit Prowlarr webUI
+* Visit Whisparr webUI
   * http://<ip_address>:6969
   * http://localhost:6969
