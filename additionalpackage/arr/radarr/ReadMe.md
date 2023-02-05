@@ -12,6 +12,6 @@
 * Add Port 7878 in Router
 * Add Port in [UFW](https://github.com/Cuates/ubuntuinstall/tree/main/system/ufw)
   * `sudo ufw allow 7878/tcp`
-* Visit Prowlarr webUI
+* Visit Radarr webUI
   * http://<ip_address>:7878
   * http://localhost:7878
