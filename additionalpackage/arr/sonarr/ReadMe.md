@@ -66,6 +66,6 @@
 * Add Port 8989 in Router
 * Add Port in [UFW](https://github.com/Cuates/ubuntuinstall/tree/main/system/ufw)
   * `sudo ufw allow 8989/tcp`
-* Visit Prowlarr webUI
+* Visit Sonarr webUI
   * http://<ip_address>:8989
   * http://localhost:8989
