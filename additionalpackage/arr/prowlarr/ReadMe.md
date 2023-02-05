@@ -9,6 +9,8 @@
 * Follow on screen instruction
   * Default should be sufficient
   * **WAIT FOR THIS TO FINISH**
+* Add username to group
+  * `sudo adduser <username> media`
 * Add Port 9696 in Router
 * Add Port in [UFW](https://github.com/Cuates/ubuntuinstall/tree/main/system/ufw)
   * `sudo ufw allow 9696/tcp`
