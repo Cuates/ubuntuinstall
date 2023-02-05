@@ -20,31 +20,37 @@
 * Issues
   * A common issue experienced by users after installing is related to SSL Certificate Validation issues. This can be resolved by syncing mono's certs
     * `sudo cert-sync /etc/ssl/certs/ca-certificates.crt`
-  * <pre>
-      W: https://download.mono-project.com/repo/ubuntu/dists/stable-focal/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
-    </pre>
-    * Fix
-      * Blah
-  * <pre>
-      N: Skipping acquire of configured file 'main/binary-i386/Packages' as repository 'https://download.mono-project.com/repo/ubuntu stable-focal InRelease' doesn't support architecture 'i386'
-    </pre>
-    * Fix
-      * Modify file /etc/apt/sources.list.d/mono-official-stable.list
-        * `sudo vim /etc/apt/sources.list.d/mono-official-stable.list`
-          * WAS
-            * <pre>
-                deb https://download.mono-project.com/repo/ubuntu stable-focal main
-              </pre>
-          * IS
-            * <pre>
-                deb [arch=amd64] https://download.mono-project.com/repo/ubuntu stable-focal main
-              </pre>
-        * Save and Exit
-  * <pre>
+  * Check apt-key list
+    * `sudo apt-key list`
+  * Warning (Make sure to get the proper key for the warning message)
+    * <pre>
+        W: https://download.mono-project.com/repo/ubuntu/dists/stable-focal/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+      </pre>
+      * Fix
+        * `sudo apt-key export D3D831EF | sudo gpg --dearmour -o /etc/apt/trusted.gpg.d/xpjrepo.gpg`
+    * <pre>
       W: https://apt.sonarr.tv/ubuntu/dists/focal/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
     </pre>
-    * Fix
-      * Blah
+      * Fix
+        * `sudo apt-key export 2A9B4BF8 | sudo gpg --dearmour -o /etc/apt/trusted.gpg.d/sonarr.gpg`
+  * Error
+    * <pre>
+        N: Skipping acquire of configured file 'main/binary-i386/Packages' as repository 'https://download.mono-project.com/repo/ubuntu stable-focal InRelease' doesn't support architecture 'i386'
+      </pre>
+      * Fix
+        * Modify file /etc/apt/sources.list.d/mono-official-stable.list
+          * `sudo vim /etc/apt/sources.list.d/mono-official-stable.list`
+            * WAS
+              * <pre>
+                  deb https://download.mono-project.com/repo/ubuntu stable-focal main
+                </pre>
+            * IS
+              * <pre>
+                  deb [arch=amd64] https://download.mono-project.com/repo/ubuntu stable-focal main
+                </pre>
+          * Save and Exit
+  * Update system repos after and warning/error messages are resolved
+    * `sudo apt update`
 * Add Port 8989 in Router
 * Add Port in [UFW](https://github.com/Cuates/ubuntuinstall/tree/main/system/ufw)
   * `sudo ufw allow 8989/tcp`
