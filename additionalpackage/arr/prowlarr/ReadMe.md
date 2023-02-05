@@ -15,3 +15,6 @@
 * Visit Prowlarr webUI
   * http://<ip_address>:9696
   * http://localhost:9696
+* If using a reverse proxy (Nginx)
+  * Modify Prowlarr settings general URL Base in the webUI
+    * /prowlarr
