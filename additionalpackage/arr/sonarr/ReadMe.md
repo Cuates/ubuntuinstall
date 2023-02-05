@@ -16,7 +16,18 @@
 * Apt Update
   * `sudo apt update`
 * Install Sonarr
-  * `sudo apt install sonarr`
+  * `sudo apt install -y sonarr`
+  * Package Configuration (window pops open)
+    * Specify the user that is used to run Sonarr. The user will be created if it does not already exist. The default 'Sonarr' should work fine for most users. You can specify the user group next.
+      * Sonnar user:
+        * sonarr
+      * Down arrow to Ok and press enter
+    * Specify the group that is used to run Sonarr. The group will be craeted if it does not already exist. If the user doesn't already exists then this group will be used as the user's primary group. Any media files created by Sonarr will be writable by this group. It's advisable to keep the group the same between download client, Sonarr and media centers.
+      * Sonarr group: (defualt sonarr)
+        * media
+      * Down arrow to Ok and press enter
+    * **WAIT FOR THIS TO FINISH**
+
 * Issues
   * A common issue experienced by users after installing is related to SSL Certificate Validation issues. This can be resolved by syncing mono's certs
     * `sudo cert-sync /etc/ssl/certs/ca-certificates.crt`
@@ -51,6 +62,7 @@
           * Save and Exit
   * Update system repos after and warning/error messages are resolved
     * `sudo apt update`
+
 * Add Port 8989 in Router
 * Add Port in [UFW](https://github.com/Cuates/ubuntuinstall/tree/main/system/ufw)
   * `sudo ufw allow 8989/tcp`
