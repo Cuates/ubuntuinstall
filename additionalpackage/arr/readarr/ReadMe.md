@@ -12,6 +12,6 @@
 * Add Port 8787 in Router
 * Add Port in [UFW](https://github.com/Cuates/ubuntuinstall/tree/main/system/ufw)
   * `sudo ufw allow 8787/tcp`
-* Visit Prowlarr webUI
+* Visit Readarr webUI
   * http://<ip_address>:8787
   * http://localhost:8787
