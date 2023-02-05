@@ -1,5 +1,6 @@
 [Sonarr Installation](https://wiki.servarr.com/sonarr/installation)<br />
 [Media Info DEB Packages](https://mediaarea.net/repo/deb/)<br />
+[Fixing Key is stored in legacy trusted gpg keyring Issue in Ubuntu](https://itsfoss.com/key-is-stored-in-legacy-trusted-gpg/)<br />
 
 * Add Mono Repo (20.04)
   * `sudo apt install gnupg ca-certificates`
