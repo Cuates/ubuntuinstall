@@ -1,6 +1,7 @@
 [Sonarr Installation](https://wiki.servarr.com/sonarr/installation)<br />
 [Media Info DEB Packages](https://mediaarea.net/repo/deb/)<br />
 [Fixing Key is stored in legacy trusted gpg keyring Issue in Ubuntu](https://itsfoss.com/key-is-stored-in-legacy-trusted-gpg/)<br />
+[Apt error repository doesnt support architecture i386](https://askubuntu.com/questions/1345751/apt-error-repository-doesnt-support-architecture-i386)<br />
 
 * Add Mono Repo (20.04)
   * `sudo apt install gnupg ca-certificates`
