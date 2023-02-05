@@ -11,19 +11,19 @@
 
 
 ### Prowlarr
-* [1](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/arr/prowlarr)
+* [1.1.3.2521](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/arr/prowlarr)
 
 ### Sonarr
-* [1](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/arr/sonarr)
+* [3.0.9.1549](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/arr/sonarr)
 
 ### Radarr
-* [1](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/arr/radarr)
+* [4.3.2.6857](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/arr/radarr)
 
 ### Readarr
-* [1](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/arr/readarr)
+* [0.1.2.1558](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/arr/readarr)
 
 ### Lidarr
-* [1](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/arr/lidarr)
+* [1.0.2.2592](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/arr/lidarr)
 
 ### Whisparr
-* [1](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/arr/whisparr)
+* [0.1.0.53](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/arr/whisparr)
