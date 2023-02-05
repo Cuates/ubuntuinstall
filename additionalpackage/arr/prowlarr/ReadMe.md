@@ -15,6 +15,14 @@
 * Visit Prowlarr webUI
   * http://<ip_address>:9696
   * http://localhost:9696
+* Authentication Required
+  * Authentication
+    * Choose Forms (Login Page)
+  * Authentication Required
+    * Choose Enabled
+  * Username
+  * Password
+  * Click button Save
 * If using a reverse proxy (Nginx)
   * Modify Prowlarr settings general URL Base in the webUI
     * /prowlarr
