@@ -16,6 +16,8 @@
   * `sudo apt-get install -y jellyfin`
 * Jellyfin Status
   * `sudo systemctl status jellyfin`
+* Add username to group
+  * `sudo adduser <username> jellyfin`
 * Add Port 8096 in Router
 * Add Port in [UFW](https://github.com/Cuates/ubuntuinstall/tree/main/system/ufw)
   * `sudo ufw allow 8096/tcp`
