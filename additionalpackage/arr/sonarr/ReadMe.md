@@ -27,6 +27,8 @@
         * media
       * Down arrow to Ok and press enter
     * **WAIT FOR THIS TO FINISH**
+* Add username to group
+  * `sudo adduser <username> media`
 
 * Issues
   * A common issue experienced by users after installing is related to SSL Certificate Validation issues. This can be resolved by syncing mono's certs
