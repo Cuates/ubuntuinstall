@@ -15,3 +15,6 @@
 * Visit Whisparr webUI
   * http://<ip_address>:6969
   * http://localhost:6969
+* If using a reverse proxy (Nginx)
+  * Modify Whisparr settings general URL Base in the webUI
+    * /whisparr
