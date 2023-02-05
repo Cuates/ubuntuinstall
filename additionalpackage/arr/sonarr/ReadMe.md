@@ -69,3 +69,6 @@
 * Visit Sonarr webUI
   * http://<ip_address>:8989
   * http://localhost:8989
+* If using a reverse proxy (Nginx)
+  * Modify Sonarr settings general URL Base in the webUI
+    * /sonarr
