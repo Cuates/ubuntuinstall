@@ -15,3 +15,6 @@
 * Visit Lidarr webUI
   * http://<ip_address>:8686
   * http://localhost:8686
+* If using a reverse proxy (Nginx)
+  * Modify Lidarr settings general URL Base in the webUI
+    * /lidarr
