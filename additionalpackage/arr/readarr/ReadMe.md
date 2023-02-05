@@ -15,3 +15,6 @@
 * Visit Readarr webUI
   * http://<ip_address>:8787
   * http://localhost:8787
+* If using a reverse proxy (Nginx)
+  * Modify Readarr settings general URL Base in the webUI
+    * /readarr
