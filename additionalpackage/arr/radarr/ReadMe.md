@@ -15,3 +15,6 @@
 * Visit Radarr webUI
   * http://<ip_address>:7878
   * http://localhost:7878
+* If using a reverse proxy (Nginx)
+  * Modify Radarr settings general URL Base in the webUI
+    * /radarr
