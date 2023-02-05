@@ -12,6 +12,6 @@
 * Add Port 8686 in Router
 * Add Port in [UFW](https://github.com/Cuates/ubuntuinstall/tree/main/system/ufw)
   * `sudo ufw allow 8686/tcp`
-* Visit Prowlarr webUI
+* Visit Lidarr webUI
   * http://<ip_address>:8686
   * http://localhost:8686
