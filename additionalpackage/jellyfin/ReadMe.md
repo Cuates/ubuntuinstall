@@ -85,7 +85,7 @@
    * Click Next
  * Username and Password
    * Click Next
- * Wait to add media library
+ * Wait to add media library (After plugins have been installed)
    * Click Next
  * Preferred metadata language
    * English
@@ -100,3 +100,30 @@
      * Host
    * Provide Username and password
    * Click Login
+ * Plugins After configuration has been setup
+   * Important Add Plugins Before creating up libraries
+   * Some plugins may already be installed by default
+    * AniDB
+    * AniList
+    * AniSearch
+    * AudioDB
+    * Bookshelf
+    * Fanar
+    * Intro Skipper
+      * [Manifest JSON](https://raw.githubusercontent.com/ConfusedPolarBear/intro-skipper/master/manifest.json)
+    * Kitsu
+    * Merge Versions
+    * MusicBrainz
+    * OMDb
+    * Open Subtitles
+    * Playback Reporting
+    * Reports
+    * Simkl
+    * SkinManager
+      * [Manifest JSON](https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json)
+    * Studio Images
+    * TMDb
+    * TVmaze
+    * ThePornDB
+      * [Manifest JSON](https://raw.githubusercontent.com/ThePornDatabase/Jellyfin.Plugin.ThePornDB/main/manifest.json)
+    * TheTVDB
