@@ -15,6 +15,7 @@
 * [Vivaldi](#vivaldi)
 * [qBittorrent](#qbittorrent)
 * [Jellyfin](#jellyfin)
+* [Jellyseerr](#jellyseerr)
 * [Arr](#arr)
 * [Podman](#podman)
 * [Docker](#docker)
@@ -58,6 +59,9 @@
 
 ### Jellyfin
 * [1](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/jellyfin)
+
+### Jellyseerr
+* [1](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/jellyseerr)
 
 ### Arr
 * [1](https://github.com/Cuates/ubuntuinstall/tree/main/additionalpackage/arr)
