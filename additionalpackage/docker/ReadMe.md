@@ -10,6 +10,7 @@
 [Docker Compose](https://github.com/docker/compose/releases/)<br />
 [Install Docker Desktop on Ubuntu](https://docs.docker.com/desktop/install/ubuntu/)<br />
 [How to Install Docker Desktop on Ubuntu 22.04](https://www.linuxtechi.com/how-to-install-docker-desktop-on-ubuntu/)<br />
+[Docker Container Inspect](https://docs.docker.com/engine/reference/commandline/container_inspect/)<br />
 
 * Docker
   * Update System
@@ -103,6 +104,9 @@
   * Execute bash to the Docker container
     * `docker exec -it <container_name> bash`
       * i.e. `docker exec -it nginx bash`
+  * Inspect docker container
+    * `docker container inspect <contianer_name>`
+      * i.e. `docker container inspect nginx`
 * Docker Compose commands
   * Docker compose up
     * `docker compose up -d`
