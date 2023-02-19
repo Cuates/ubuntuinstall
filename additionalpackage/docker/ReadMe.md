@@ -9,6 +9,7 @@
 [Komga Gotson](https://github.com/gotson/komga/issues/353)<br />
 [Docker Compose](https://github.com/docker/compose/releases/)<br />
 [Install Docker Desktop on Ubuntu](https://docs.docker.com/desktop/install/ubuntu/)<br />
+[How to Install Docker Desktop on Ubuntu 22.04](https://www.linuxtechi.com/how-to-install-docker-desktop-on-ubuntu/)<br />
 
 * Docker
   * Update System
@@ -72,6 +73,10 @@
   * Upgrade Docker Desktop
     * `sudo apt-get install ./docker-desktop-<version>-<arch>.deb`
       * i.e. `sudo apt-get install ./docker-desktop-4.16.2-amd64.deb`
+  * Remove Docker Desktop from system
+    * `sudo apt purge docker-desktop`
+    * `rm -r ~/.docker/desktop`
+    * `sudo rm /user/local/bin/com.docker.cli`
 * Docker commands
   * View all available subcommands
     * `docker`
