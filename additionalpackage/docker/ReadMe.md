@@ -11,6 +11,7 @@
 [Install Docker Desktop on Ubuntu](https://docs.docker.com/desktop/install/ubuntu/)<br />
 [How to Install Docker Desktop on Ubuntu 22.04](https://www.linuxtechi.com/how-to-install-docker-desktop-on-ubuntu/)<br />
 [Docker Container Inspect](https://docs.docker.com/engine/reference/commandline/container_inspect/)<br />
+[How to list containers in Docker](https://stackoverflow.com/questions/16840409/how-to-list-containers-in-docker)<br />
 
 * Docker
   * Update System
@@ -85,12 +86,17 @@
     * `docker docker-subcommand --help`
   * View system-wide information about DOcker
     * `docker info`
-  * View active containers
+  * View active/running containers
     * `docker ps`
-  * View all containers
+    * OR `docker container ls`
+  * View all active/inactive containers
     * `docker ps -a`
-  * List containers created
+    * * OR `docker container ls -a`
+  * List the last container created
     * `docker ps -l`
+  * List total file sizes for each container
+    * `docker ps -s`
+    * `docker ps -as`
   * Start a container
     * `docker start <conatiner_id>/<container_name>`
       * i.e. `docker start 1c08a7a0d0e4`
