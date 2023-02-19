@@ -174,6 +174,27 @@
   * See which procedures have not been updated to the server’s new character_set_client, collation_connection and Database Collation values
     * `show procedure status;`
 
+* User access
+ * `sudo mysql`
+   * `select user,host,password from mysql.user;`
+   * `show databases;`
+   * `GRANT ALL ON *.* TO user_name@ip_address IDENTIFIED BY 'user_password' WITH GRANT OPTION;`
+     * IP_Address means user can login from a specific IP address
+     * "WITH GRANT OPTION" is optional
+   * `FLUSH PRIVILEGES;`
+     * The above command is to apply changes 
+   * `GRANT ALL ON *.* TO user_name@'%' IDENTIFIED BY 'user_password' WITH GRANT OPTION;`
+     * '%' means user can login from any IP
+     * "WITH GRANT OPTION" is optional
+   * `FLUSH PRIVILEGES;`
+     * The above command is to apply changes 
+   * `GRANT ALL ON <database_name>.* TO user_name@ip_address IDENTIFIED BY 'user_password' WITH GRANT OPTION;`
+     * database_name means only to a certain database and no other on the system
+     * "WITH GRANT OPTION" is optional
+   * Drop User
+     * `DROP USER user_name@'ip_address';`
+   * `exit;`
+
 **USAGE**<br />
 [How To Create A Table In MySQL And MariaDB On An Ubuntu Cloud Server](https://www.digitalocean.com/community/tutorials/how-to-create-a-table-in-mysql-and-mariadb-on-an-ubuntu-cloud-server)<br />
 [There Can Be Only One Auto Column](https://stackoverflow.com/questions/8645889/there-can-be-only-one-auto-column)<br />
@@ -277,27 +298,6 @@
     * `sudo chown mysql:mysql *.ibd`
   * Alter table with the ibd data by using import
     * `alter table table_name import tablespace;`
-
-* User access
- * `sudo mysql`
-   * `select user,host,password from mysql.user;`
-   * `show databases;`
-   * `GRANT ALL ON *.* TO user_name@ip_address IDENTIFIED BY 'user_password' WITH GRANT OPTION;`
-     * IP_Address means user can login from a specific IP address
-     * "WITH GRANT OPTION" is optional
-   * `FLUSH PRIVILEGES;`
-     * The above command is to apply changes 
-   * `GRANT ALL ON *.* TO user_name@'%' IDENTIFIED BY 'user_password' WITH GRANT OPTION;`
-     * '%' means user can login from any IP
-     * "WITH GRANT OPTION" is optional
-   * `FLUSH PRIVILEGES;`
-     * The above command is to apply changes 
-   * `GRANT ALL ON <database_name>.* TO user_name@ip_address IDENTIFIED BY 'user_password' WITH GRANT OPTION;`
-     * database_name means only to a certain database and no other on the system
-     * "WITH GRANT OPTION" is optional
-   * Drop User
-     * `DROP USER user_name@'ip_address';`
-   * `exit;`
 
 **IMPORTANT NOTE**
 * Need to grant permissions within the database to a specific user and IP for external database access
