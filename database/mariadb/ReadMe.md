@@ -43,11 +43,14 @@
   * Reload privilege tables now: Y Enter
 * `mysql -u root -p`
   * exit;
-
-* `sudo systemctl start mariadb`
-* `sudo systemctl enable mariadb`
-* `sudo systemctl status mariadb`
-
+* Service start
+  * `sudo systemctl start mariadb`
+* Enable at Boot
+  * `sudo systemctl enable mariadb`
+* Service status
+  * `sudo systemctl status mariadb`
+* Add Port in [UFW](https://github.com/Cuates/ubuntuinstall/tree/main/system/ufw)
+  * `sudo ufw allow 3306/tcp`
 
 * `sudo firewall-cmd --get-services`
 * `sudo firewall-cmd --zone=public --permanent --add-service=mysql`
