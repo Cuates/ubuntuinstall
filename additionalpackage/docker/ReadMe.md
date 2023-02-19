@@ -9,4 +9,20 @@
 [Komga Gotson](https://github.com/gotson/komga/issues/353)<br />
 
 * Docker
+  * Update System
+    * `sudo apt-get update`
+  * Install prerequisite packages
+    * `sudo apt install apt-transport-https ca-certificates curl software-properties-common`
+  * Add GPG Key for the official Docker repo
+    * `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg`
+  * Add Docker repo to APT sources
+    * `echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null`
+  * Update existing list of packages
+    * `sudo apt-get update`
+  * Check if installing from Docker instead of Ubuntu
+    * `apt-cache policy docker-ce`
+  * Install Docker
+    * `sudo apt-get install docker-ce`
+  * Check system status
+    * `sudo systemctl status docker`
 * Docker-Compose
