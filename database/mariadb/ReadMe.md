@@ -1,6 +1,7 @@
 [How To Install MariaDB on Ubuntu 22 04](https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-ubuntu-22-04)<br />
 [Download MariaDB Server](https://mariadb.org/download)<br />
 [Apt error repository doesnt support architecture i386](https://askubuntu.com/questions/1345751/apt-error-repository-doesnt-support-architecture-i386)<br />
+[How to enable Remote access to your MariaDB MySQL database on Ubuntu Bionic or MariaDB v10 6](https://webdock.io/en/docs/how-guides/database-guides/how-enable-remote-access-your-mariadbmysql-database)<br />
 
 
 * Install dependencies
@@ -154,6 +155,15 @@
         
         [mariadb-10.10]
         </pre>
+    * Modify bind-address line
+      * WAS
+        * <pre>
+            bind-address = 127.0.0.1
+          </pre>
+      * IS
+        * <pre>
+            bind-address = 0.0.0.0
+          </pre>
     * Save and Exit
 
 * Restart MariaDB Services
