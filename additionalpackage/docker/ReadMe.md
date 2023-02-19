@@ -25,4 +25,7 @@
     * `sudo apt-get install docker-ce`
   * Check system status
     * `sudo systemctl status docker`
+  * Add username to the docker group
+    * `sudo usermod -aG docker <username>`
+  * Restart your system for users and groups to take hold
 * Docker-Compose
