@@ -72,8 +72,6 @@
   * Upgrade Docker Desktop
     * `sudo apt-get install ./docker-desktop-<version>-<arch>.deb`
       * i.e. `sudo apt-get install ./docker-desktop-4.16.2-amd64.deb`
-
-
 * Docker commands
   * View all available subcommands
     * `docker`
