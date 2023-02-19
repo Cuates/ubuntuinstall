@@ -1,23 +1,10 @@
-Mariadb
-GO THROUGH INSTALL PROCESS
+[How To Install MariaDB on Ubuntu 22 04](https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-ubuntu-22-04)<br />
+[Download MariaDB Server](https://mariadb.org/download)<br />
 
-* `sudo vim /etc/yum.repos.d/MariaDB.repo`
-  * MariaDB 10.8.2 [Stable] Red Hat Linux instead of CentOS
-  * **PASTE BELOW INTO FILE**<br />
-  * <pre>
-    [mariadb]
-    name = MariaDB
-    baseurl = http://sfo1.mirrors.digitalocean.com/mariadb/yum/10.9.4/rhel9-amd64/
-    module_hotfixes=1
-    gpgkey=http://sfo1.mirrors.digitalocean.com/mariadb/yum/RPM-GPG-KEY-MariaDB
-    gpgcheck=1
-    </pre>
-  * Save and Exit
-* `sudo dnf clean packages`
-* `sudo dnf update`
-  * If anything comes up for Mariadb, then type "y" and click Enter to proceed with the installation.
-  * If anything comes up for Mariadb importing GPG Key, then type "y" and click Enter to proceed.
-* `sudo dnf install -y mariadb-server mariadb mysql-devel`
+* Update system
+  * `sudo apt-get update`
+* Install Mariadb
+  * `sudo apt-get install -y mariadb-server`
 * `sudo systemctl start mariadb`
 * `sudo systemctl enable mariadb`
 * `sudo systemctl status mariadb`
