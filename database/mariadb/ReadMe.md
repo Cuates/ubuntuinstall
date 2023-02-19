@@ -51,6 +51,8 @@
   * `sudo systemctl status mariadb`
 * Add Port in [UFW](https://github.com/Cuates/ubuntuinstall/tree/main/system/ufw)
   * `sudo ufw allow 3306/tcp`
+* Mariadb version
+  * `mariadb --version`
 
 * Log into the router and port forward mysql (port 3306) to the Linux machine, so traffic can be redirected (this is optional)
 * `sudo mysql`
