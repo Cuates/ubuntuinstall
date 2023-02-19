@@ -1,14 +1,37 @@
 [How To Install MariaDB on Ubuntu 22 04](https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-ubuntu-22-04)<br />
 [Download MariaDB Server](https://mariadb.org/download)<br />
+[Apt error repository doesnt support architecture i386](https://askubuntu.com/questions/1345751/apt-error-repository-doesnt-support-architecture-i386)<br />
 
-* Update system
-  * `sudo apt-get update`
+
+* Install dependencies
+  * `sudo apt-get install -y apt-transport-https curl`
+* Import signing key
+  * `sudo curl -o /etc/apt/trusted.gpg.d/mariadb_release_signing_key.asc 'https://mariadb.org/mariadb_release_signing_key.asc'`
+* Add repository to source list
+  * `sudo sh -c "echo 'deb https://mirrors.xtom.com/mariadb/repo/10.10/ubuntu jammy main' >>/etc/apt/sources.list`
+
+* Error
+    * <pre>
+        N: Skipping acquire of configured file 'main/binary-i386/Packages' as repository 'https://mirrors.xtom.com/mariadb/repo/10.10/ubuntu jammy InRelease' doesn't support architecture 'i386'
+      </pre>
+      * Fix
+        * Modify file /etc/apt/sources.list
+          * `sudo vim /etc/apt/sources.list`
+            * WAS
+              * <pre>
+                  deb https://mirrors.xtom.com/mariadb/repo/10.10/ubuntu jammy main
+                </pre>
+            * IS
+              * <pre>
+                  deb [arch=amd64] https://mirrors.xtom.com/mariadb/repo/10.10/ubuntu jammy main
+                </pre>
+          * Save and Exit
+  * Update system repos after and warning/error messages are resolved
+    * `sudo apt-get update`
 * Install Mariadb
   * `sudo apt-get install -y mariadb-server`
-* `sudo systemctl start mariadb`
-* `sudo systemctl enable mariadb`
-* `sudo systemctl status mariadb`
-* `sudo mariadb-secure-installation`
+* Secure installation for Mariadb
+  * `sudo mariadb-secure-installation`
   * Enter current password for root (enter for none): Enter
   * Switch to unix_socket authentication: Y Enter
   * Change the root password? Y Enter
@@ -20,6 +43,12 @@
   * Reload privilege tables now: Y Enter
 * `mysql -u root -p`
   * exit;
+
+* `sudo systemctl start mariadb`
+* `sudo systemctl enable mariadb`
+* `sudo systemctl status mariadb`
+
+
 * `sudo firewall-cmd --get-services`
 * `sudo firewall-cmd --zone=public --permanent --add-service=mysql`
 * `sudo firewall-cmd --reload`
