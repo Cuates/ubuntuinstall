@@ -1,33 +1,33 @@
-Postgres
+[Install PostgreSQL 15 on Ubuntu 22 04 20 04](https://www.linuxcapable.com/install-postgresql-15-on-ubuntu/)<br />
 
-GO THROUGH INSTALL PROCESS
-
-[PostgreSQL Download](https://www.postgresql.org/download/linux/redhat/)
-* Install the repository RPM:
-  * Make sure to get the latest version link (as of now it is 15)
-  * `sudo dnf install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-9-x86_64/pgdg-redhat-repo-latest.noarch.rpm`
-    * Importing GPG key
-    * Is this okay [y/N]: y
-      * Repeat this step for all versions of postgresql
-* Disable the built-in PostgreSQL module:
-  * This step may not be needed
-  * `sudo dnf -qy module disable postgresql` 
-* Install PostgreSQL:
-  * `sudo dnf install -y postgresql15-server postgresql15-contrib postgresql15 postgresql15-devel postgresql15-odbc`
-* Optionally initialize the database and enable automatic start:
-  * `sudo /usr/pgsql-15/bin/postgresql-15-setup initdb`
-  * `sudo systemctl start postgresql-15`
-  * `sudo systemctl enable postgresql-15`
-  * `sudo systemctl status postgresql-15`
-
-* Old way of installing postgresql
-* `sudo dnf module list postgresql`
-* `sudo dnf module -y enable postgresql:13`
-* `sudo dnf install -y postgresql-server postgresql-contrib postgresql postgresql-devel postgresql-odbc`
-* `sudo postgresql-setup --initdb`
-* `sudo systemctl start postgresql`
-* `sudo systemctl enable postgresql`
-* `sudo systemctl status postgresql`
+* Update system
+  * `sudo apt-get update`
+* Check upgradable
+  * `sudo apt --list upgradable`
+* Upgrade outdated packages
+  * `sudo apt upgrade`
+* Install dependencies
+  * `sudo apt-get install -y dirmngr ca-certificates software-properties-common gnupg gnupg2 apt-transport-https curl`
+* Import PostgresSQL repo
+  * `curl -fSsL https://www.postgresql.org/media/keys/ACCC4CF8.asc | gpg --dearmor | sudo tee /usr/share/keyrings/postgresql.gpg > /dev/null`
+* Import stable build
+  * `echo deb [arch=amd64,arm64,ppc64el signed-by=/usr/share/keyrings/postgresql.gpg] http://apt.postgresql.org/pub/repos/apt/ jammy-pgdg main | sudo tee -a /etc/apt/sources.list.d/postgresql.list`
+* Update system
+  * `sudo apt-get update`
+* Install postgresql
+  * `sudo apt install -y postgresql-client-15 postgresql-15`
+* Service status
+  * `sudo systemctl status postgresql`
+* Service enable and start
+  * `sudo systemctl enable postgresql --now`
+* Service stop
+  * `sudo systemctl stop postgresql`
+* Service start
+  * `sudo systemctl start postgresql`
+* Service restart
+  * `sudo systemctl restart postgresql`
+* Service reload
+  * `sudo systemctl reload postgresql`
 * `sudo -i -u postgres`
   * `psql`
   * `\q`
