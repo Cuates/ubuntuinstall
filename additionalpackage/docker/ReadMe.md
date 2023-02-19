@@ -7,6 +7,7 @@
 [Komga Optional COnfiguration](https://komga.org/installation/configuration.html#optional-configuration)<br />
 [Komga Baseurl](https://komga.org/installation/configuration.html#server-servlet-context-path-server-servlet-context-path-baseurl)<br />
 [Komga Gotson](https://github.com/gotson/komga/issues/353)<br />
+[Docker Compose](https://github.com/docker/compose/releases/)<br />
 
 * Docker
   * Update System
@@ -36,6 +37,7 @@
   * Create directory
     * `mkdir -p ~/.docker/cli-plugins/`
   * Download docker compose
+    * **NOTE** Get the latest docker compose version
     * `curl -SL https://github.com/docker/compose/releases/download/v2.16.0/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose`
   * Set permission for docker compose to be executable
     * `chmod +x ~/.docker/cli-plugins/docker-compose`
@@ -65,3 +67,6 @@
       * i.e. `docker stop ubuntu`
   * List Docker images
     * `docker images`
+* Docker Compose commands
+  * Docker compose up
+    * `docker compose up -d`
