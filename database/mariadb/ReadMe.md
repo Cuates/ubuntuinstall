@@ -55,29 +55,6 @@
   * `mariadb --version`
 
 * Log into the router and port forward mysql (port 3306) to the Linux machine, so traffic can be redirected (this is optional)
-* `sudo mysql`
-  * `select user,host,password from mysql.user;`
-  * `show databases;`
-  * `GRANT ALL ON *.* TO user_name@ip_address IDENTIFIED BY 'user_password' WITH GRANT OPTION;`
-    * IP_Address means user can login from a specific IP address
-    * "WITH GRANT OPTION" is optional
-  * `FLUSH PRIVILEGES;`
-    * The above command is to apply changes 
-  * `GRANT ALL ON *.* TO user_name@'%' IDENTIFIED BY 'user_password' WITH GRANT OPTION;`
-    * '%' means user can login from any IP
-    * "WITH GRANT OPTION" is optional
-  * `FLUSH PRIVILEGES;`
-    * The above command is to apply changes 
-  * `GRANT ALL ON <database_name>.* TO user_name@ip_address IDENTIFIED BY 'user_password' WITH GRANT OPTION;`
-    * database_name means only to a certain database and no other on the system
-    * "WITH GRANT OPTION" is optional
-  * Drop User
-    * `DROP USER user_name@'ip_address';`
-  * `exit;`
-* `mariadb --version`
-
-**IMPORTANT NOTE**
-* Need to grant permissions within the database to a specific user and IP for external database access
 
 **Setup Database For utf8mb4**
 * Modify client.cnf File
@@ -299,6 +276,30 @@
     * `sudo chown mysql:mysql *.ibd`
   * Alter table with the ibd data by using import
     * `alter table table_name import tablespace;`
+
+* User access
+ * `sudo mysql`
+   * `select user,host,password from mysql.user;`
+   * `show databases;`
+   * `GRANT ALL ON *.* TO user_name@ip_address IDENTIFIED BY 'user_password' WITH GRANT OPTION;`
+     * IP_Address means user can login from a specific IP address
+     * "WITH GRANT OPTION" is optional
+   * `FLUSH PRIVILEGES;`
+     * The above command is to apply changes 
+   * `GRANT ALL ON *.* TO user_name@'%' IDENTIFIED BY 'user_password' WITH GRANT OPTION;`
+     * '%' means user can login from any IP
+     * "WITH GRANT OPTION" is optional
+   * `FLUSH PRIVILEGES;`
+     * The above command is to apply changes 
+   * `GRANT ALL ON <database_name>.* TO user_name@ip_address IDENTIFIED BY 'user_password' WITH GRANT OPTION;`
+     * database_name means only to a certain database and no other on the system
+     * "WITH GRANT OPTION" is optional
+   * Drop User
+     * `DROP USER user_name@'ip_address';`
+   * `exit;`
+
+**IMPORTANT NOTE**
+* Need to grant permissions within the database to a specific user and IP for external database access
 
 * Export
   * Open a terminal of choice to execute the following dump command
