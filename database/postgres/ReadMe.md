@@ -34,39 +34,37 @@
   * `exit`
 * `postgres --version`
 
-[Install PostgresSQL And pgAdmin In CentOS 8](https://www.tecmint.com/install-postgressql-and-pgadmin-in-centos-8/)<br />
-[How To Install Postgres On Redhat 8](https://linuxconfig.org/how-to-install-postgres-on-redhat-8)<br />
-[How To Install PostgreSQL On rhel 8](https://www.itzgeek.com/how-tos/linux/centos-how-tos/how-to-install-postgresql-on-rhel-8.html)<br />
-[Install PostgreSQL 12 CentOS 8](https://sysadminjournal.com/install-postgresql-12-centos-8/)
-* `sudo -i -u postgres`
-  * `psql`
-    * `\password postgres`
-    * PASSWORD_HERE
+* Change postgres password
+  * `sudo -i -u postgres`
+    * `psql`
+      * `\password postgres`
+      * PASSWORD_HERE
+    * `exit`
   * `exit`
-* `exit`
-* `sudo vim /var/lib/pgsql/15/data/postgresql.conf`
-  * Below is the old path
-    * `sudo vim /var/lib/pgsql/data/postgresql.conf`
-  * WAS
-    * listen_addresses = 'localhost'
-  * IS
-    * listen_addresses = '*'
-  * Save and Quit
-* `sudo systemctl restart postgresql-15`
-* `sudo netstat -antup | grep 5432`
-* `sudo vim /var/lib/pgsql/15/data/pg_hba.conf`
-  * WAS
-    <pre>
-    host    all             all             127.0.0.1/32            ident
-    host    all             all             ::1/128                 ident
-    </pre>
-  * IS
-    <pre>
-    host    all             all             127.0.0.1/32            scram-sha-256
-    host    all             all             0.0.0.0/0               scram-sha-256
-    host    all             all             ::1/128                 scram-sha-256
-    </pre>
-  * Save and Quit **NOTE make sure to tab each column to match the existing column**
+* Enable remote access
+  * Modify /etc/postgressql/15/main/postgresql.conf File
+    * `sudo vim /etc/postgressql/15/main/postgresql.conf`
+      * WAS
+        * #listen_addresses = 'localhost' # what IP address(es) to listen on;
+      * IS
+        * listen_addresses = '*' # what IP address(es) to listen on;
+      * Save and Quit
+  * Modify /var/lib/pgsql/15/data/pg_hba.conf File
+    * `sudo vim /var/lib/pgsql/15/data/pg_hba.conf`
+      * WAS
+        <pre>
+        host    all             all             127.0.0.1/32            ident
+        host    all             all             ::1/128                 ident
+        </pre>
+      * IS
+        <pre>
+        host    all             all             127.0.0.1/32            scram-sha-256
+        host    all             all             0.0.0.0/0               scram-sha-256
+        host    all             all             ::1/128                 scram-sha-256
+        </pre>
+      * Save and Quit **NOTE make sure to tab each column to match the existing column**
+  * `sudo netstat -antup | grep 5432`
+  * `sudo systemctl restart postgresql`
 * `sudo systemctl restart postgresql-15`
 * `sudo firewall-cmd --get-services`
 * `sudo firewall-cmd --zone=public --permanent --add-service=postgresql`
