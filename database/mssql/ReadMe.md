@@ -1,14 +1,16 @@
-MSSQL
+[Quickstart: Install SQL Server and create a database on Ubuntu](https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver16)<br />
 
-GO THROUGH INSTALL PROCESS
+**NOTE: DO NOT FOLLOW THESE STEPS AS MSSQL SERVER DOES NOT SUPPORT UBUNTU 22.04**
+**NEED TO REVISIT THIS INSTALL AT A LATER TIME**
 
-* Add the Microsoft SQL Server 2022 repository
-  * `sudo curl -o /etc/yum.repos.d/mssql-server.repo https://packages.microsoft.com/config/rhel/8/mssql-server-2022.repo`
-  * `sudo curl -o /etc/yum.repos.d/msprod.repo https://packages.microsoft.com/config/rhel/8/prod.repo`
-
-* Add the Microsoft SQL Server 2019 repository (Old version)
-  * `sudo curl https://packages.microsoft.com/config/rhel/8/mssql-server-2019.repo -o /etc/yum.repos.d/mssql-server-2019.repo`
-  * `sudo curl https://packages.microsoft.com/config/rhel/8/prod.repo -o /etc/yum.repos.d/msprod.repo`
+* Import GPG key
+  * `wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc`
+* Register SQL Server Ubuntu repo
+  * `sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/20.04/mssql-server-2022.list)"`
+* Update system
+  * `sudo apt-get update`
+* Install mssql server
+  * `sudo apt-get install -y mssql-server`
 
 * Install MS SQL server on RHEL 8 / CentOS 8
   * `sudo dnf makecache`
