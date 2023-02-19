@@ -62,7 +62,7 @@
             </pre>
   * Open Docker Desktop GUI
     * Start Docker Desktop via GUI
-    * Accept the EULA, will only show the first time the app is opened after installing
+    * Accept the Service Agreement, will only show the first time the app is opened after installing
   * Enable Docker Desktop to start on login
     * `sudo systemctl --user enable docker-desktop`
   * Start Docker Desktop
