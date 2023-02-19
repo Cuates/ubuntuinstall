@@ -57,8 +57,8 @@
 * Log into the router and port forward mysql (port 3306) to the Linux machine, so traffic can be redirected (this is optional)
 
 **Setup Database For utf8mb4**
-* Modify client.cnf File
-  * `sudo vim /etc/my.cnf.d/client.cnf`
+* Modify /etc/mariadb.conf.d/50-client.cnf File
+  * `sudo vim /etc/mariadb.conf.d/50-client.cnf`
     * WAS
       * <pre>
         [client]
@@ -74,7 +74,8 @@
         </pre>
     * Save and Exit
 
-  * `sudo vim /etc/my.cnf.d/mysql-clients.cnf`
+* Modify /etc/mariadb.conf.d/50-mysql-clients.cnf File
+  * `sudo vim /etc/mariadb.conf.d/50-mysql-clients.cnf`
     * WAS
       * <pre>
         [mysql]
@@ -118,8 +119,8 @@
         </pre>
     * Save and Exit
 
-* Modify server.cnf File
-  * `sudo vim /etc/my.cnf.d/server.cnf`
+* Modify /etc/mariadb.conf.d/50-server.cnf File
+  * `sudo vim /etc/mariadb.conf.d/50-server.cnf`
     * WAS
       * <pre>
         [server]
@@ -132,7 +133,7 @@
         
         [mariadb]
         
-        [mariadb-10.5]
+        [mariadb-10.10]
         </pre>
     * IS
       * <pre>
@@ -151,7 +152,7 @@
         
         [mariadb]
         
-        [mariadb-10.5]
+        [mariadb-10.10]
         </pre>
     * Save and Exit
 
