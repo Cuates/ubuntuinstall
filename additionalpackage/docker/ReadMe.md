@@ -27,6 +27,9 @@
     * `sudo systemctl status docker`
   * Add username to the docker group
     * `sudo usermod -aG docker <username>`
+      * Add any other users to the docker group if needed
   * Log out and back in for users and groups to take hold
     * NOTE: If log out does not work, then restart your system
+  * Check if docker group was added
+    * `groups`
 * Docker-Compose
