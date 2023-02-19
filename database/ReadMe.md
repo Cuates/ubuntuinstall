@@ -21,4 +21,4 @@
 * [10.10.3](https://github.com/Cuates/ubuntuinstall/tree/main/database/mariadb)
 
 ### PostgreSQL
-* [12.1-2](https://github.com/Cuates/ubuntuinstall/tree/main/database/postgres)
+* [15.2-1](https://github.com/Cuates/ubuntuinstall/tree/main/database/postgres)
