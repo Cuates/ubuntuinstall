@@ -70,3 +70,15 @@
 * Docker Compose commands
   * Docker compose up
     * `docker compose up -d`
+  * Docker compose logs
+    * `docker compose logs`
+  * Pause the environment execution without changing the curren tstat of your conatiners
+    * `docker compose pause`
+  * Resume execution after issuing a pause
+    * `docker compose unpause`
+  * Terminate container execution; will not destroy any data associated with your container
+    * `docker compose stop`
+  * Remove conatiner; will remove the containters, networks, and volumes assocaited with this containerized environment
+    * `docker compose down`
+  * Remove base image
+    * `docker image rm <image_name>:<image_name>`
