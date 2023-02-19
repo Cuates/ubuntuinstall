@@ -33,3 +33,11 @@
   * Check if docker group was added
     * `groups`
 * Docker-Compose
+
+* Docker commands
+  * View all available subcommands
+    * `docker`
+  * View options available to a specific command
+    * `docker docker-subcommand --help`
+  * View system-wide information about DOcker
+    * `docker info`
