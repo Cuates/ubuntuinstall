@@ -114,4 +114,5 @@
   * Remove conatiner; will remove the containters, networks, and volumes assocaited with this containerized environment
     * `docker compose down`
   * Remove base image
-    * `docker image rm <image_name>:<image_name>`
+    * `docker image rm <docker_image_container_name>`
+      * i.e. `docker image rm nginx:alpine`
