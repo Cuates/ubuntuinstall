@@ -15,7 +15,7 @@
 * [2.3.7](https://github.com/Cuates/centosinstall/tree/master/database/unixodbc)
 
 ### MSSQL
-* [2019](https://github.com/Cuates/centosinstall/tree/master/database/mssql)
+* [2019](https://github.com/Cuates/ubuntuinstall/tree/main/database/mssql)
 
 ### MariaDB
 * [10.5.4](https://github.com/Cuates/centosinstall/tree/master/database/mariadb)
