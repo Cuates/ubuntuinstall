@@ -1,6 +1,4 @@
-freetds
-
-GO THROUGH INSTALL PROCESS
+**NOTE: Currently not installable**
 
 [freetds-1.1.20](https://centos.pkgs.org/8/epel-x86_64/freetds-1.1.20-1.el8.x86_64.rpm.html)<br />
 [Cant Install Freetds Via Yum Package Manager](https://stackoverflow.com/questions/20179649/cant-install-freetds-via-yum-package-manager)<br />
