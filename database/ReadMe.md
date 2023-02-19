@@ -18,7 +18,7 @@
 * [2019](https://github.com/Cuates/ubuntuinstall/tree/main/database/mssql)
 
 ### MariaDB
-* [10.5.4](https://github.com/Cuates/centosinstall/tree/master/database/mariadb)
+* [10.5.4](https://github.com/Cuates/ubuntuinstall/tree/main/database/mariadb)
 
 ### PostgreSQL
-* [12.1-2](https://github.com/Cuates/centosinstall/tree/master/database/postgresql)
+* [12.1-2](https://github.com/Cuates/ubuntuinstall/tree/main/database/postgres)
