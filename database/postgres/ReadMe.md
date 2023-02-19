@@ -65,78 +65,11 @@
       * Save and Quit **NOTE make sure to tab each column to match the existing column**
   * `sudo netstat -antup | grep 5432`
   * `sudo systemctl restart postgresql`
-* `sudo systemctl restart postgresql-15`
-* `sudo firewall-cmd --get-services`
-* `sudo firewall-cmd --zone=public --permanent --add-service=postgresql`
-* `sudo firewall-cmd --reload`
 
-* Alternative Installation for the latest PostgreSQL 14 **Note Cannot install this and a newer/older version at the same time**<br />
-* Add PostgreSQL packabes to CentOS 8 server
-  * `sudo dnf -y install https://download.postgresql.org/pub/repos/yum/reporpms/EL-8-x86_64/pgdg-redhat-repo-latest.noarch.rpm`
+* Log into the router and port forward mysql (port 5432) to the Linux machine, so traffic can be redirected (this is optional)
+* Add Port in [UFW](https://github.com/Cuates/ubuntuinstall/tree/main/system/ufw)
+  * `sudo ufw allow 5432/tcp`
 
-* Disable PostgreSQL AppStream repository on CentOS 8
-  * `sudo dnf -qy module disable postgresql`
-
-* Enable PostgreSQL 14 repository
-  * `sudo dnf -y install dnf-utils`
-  * `sudo yum-config-manager --enable pgdg14`
-
-* Confirm the list of enabled repositories
-  * `dnf repolist`
-
-* Check to see if PostgreSQL 14 packages are available on the repository
-  * `sudo dnf search postgresql14`
-
-* Install PostgreSQL 14 packages on your CentOS 8
-  * `sudo dnf install -y postgresql14-server postgresql14-contrib postgresql14-devel postgresql14`
-
-* Initialize and start database service
-  * `sudo /usr/pgsql-14/bin/postgresql-14-setup initdb`
-
-* The database main configuration file is  /var/lib/pgsql/14/data/postgresql.conf
-  * `ls /var/lib/pgsql/14/data/`
-
-* Start the PostgreSQL database server and set it to start at boot.
-  * `sudo systemctl enable --now postgresql-14`
-
-* Check the service status to confirm it is running.
-  * `systemctl status postgresql-14`
-
-* Set PostgreSQL admin user’s password
-* `sudo -i -u postgres`
-  * `psql`
-    * `\password postgres`
-    * PASSWORD_HERE
-  * `exit`
-* `exit`
-* `sudo vim /var/lib/pgsql/14/data/postgresql.conf`
-  * WAS
-    * listen_addresses = 'localhost'
-  * IS
-    * listen_addresses = '*'
-  * Save and Quit
-* `sudo systemctl restart postgresql-14`
-* `sudo netstat -antup | grep 5432`
-* `sudo vim /var/lib/pgsql/14/data/pg_hba.conf`
-  * WAS
-    <pre>
-    host    all             all             127.0.0.1/32            ident
-    host    all             all             ::1/128                 ident
-    </pre>
-  * IS
-    <pre>
-    host    all             all             127.0.0.1/32            md5
-    host    all             all             0.0.0.0/0               md5
-    host    all             all             ::1/128                 md5
-    </pre>
-  * Save and Quit **NOTE make sure to tab each column to match the existing column**
-* `sudo systemctl restart postgresql-14`
-* `sudo firewall-cmd --get-services`
-* `sudo firewall-cmd --zone=public --permanent --add-service=postgresql`
-* `sudo firewall-cmd --reload`
-* `sudo firewall-cmd --list-services`
-* `sudo firewall-cmd --info-service postgresql`
-* `sudo firewall-cmd --list-all`
 
 **USAGE**<br />
 [PostgreSQL Grant](https://www.educba.com/postgresql-grant/)<br />
