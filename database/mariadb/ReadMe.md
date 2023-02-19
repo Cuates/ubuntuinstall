@@ -52,12 +52,6 @@
 * Add Port in [UFW](https://github.com/Cuates/ubuntuinstall/tree/main/system/ufw)
   * `sudo ufw allow 3306/tcp`
 
-* `sudo firewall-cmd --get-services`
-* `sudo firewall-cmd --zone=public --permanent --add-service=mysql`
-* `sudo firewall-cmd --reload`
-* `sudo firewall-cmd --list-services`
-* `sudo firewall-cmd --info-service mysql`
-* `sudo firewall-cmd --list-all`
 * Log into the router and port forward mysql (port 3306) to the Linux machine, so traffic can be redirected (this is optional)
 * `sudo mysql`
   * `select user,host,password from mysql.user;`
