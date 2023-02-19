@@ -1,4 +1,5 @@
 [Install PostgreSQL 15 on Ubuntu 22 04 20 04](https://www.linuxcapable.com/install-postgresql-15-on-ubuntu/)<br />
+[How to Check the PostgreSQL Version](https://linuxize.com/post/how-to-check-postgresql-version/)<br />
 
 * Update system
   * `sudo apt-get update`
@@ -32,7 +33,7 @@
   * `psql`
   * `\q`
   * `exit`
-* `postgres --version`
+* `/usr/lib/postgresql/15/bin/postgres -V`
 
 * Change postgres password
   * `sudo -i -u postgres`
