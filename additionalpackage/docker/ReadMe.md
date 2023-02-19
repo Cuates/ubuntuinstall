@@ -54,14 +54,24 @@
   * Update System
     * `sudo apt-get update`
   * Install Package
-    * `sudo apt-get install -y ./docker-desktop-4.16.2-amd64.deb`
-      * Based on Docker Desktop documenation, you can ignore the warning
-        * <pre>
-            N: Download is performed unsandboxed as root, as file '/home/user/Downloads/docker-desktop.deb' couldn't be accessed by user '_apt'. - pkgAcquire::Run (13: Permission denied)
-          </pre>
+    *  `sudo apt-get install -y ./docker-desktop-<version>-<arch>.deb`
+      * i.e. `sudo apt-get install -y ./docker-desktop-4.16.2-amd64.deb`
+        * Based on Docker Desktop documenation, you can ignore the warning
+          * <pre>
+              N: Download is performed unsandboxed as root, as file '/home/user/Downloads/docker-desktop.deb' couldn't be accessed by user '_apt'. - pkgAcquire::Run (13: Permission denied)
+            </pre>
   * Open Docker Desktop GUI
-    * `systemctl --user start docker-desktop`
+    * Start Docker Desktop via GUI
     * Accept the EULA, will only show the first time the app is opened after installing
+  * Enable Docker Desktop to start on login
+    * `sudo systemctl --user enable docker-desktop`
+  * Start Docker Desktop
+    * `sudo systemctl --user start docker-desktop`
+  * Stop Docker Desktop
+    * `sudo systemctl --user stop docker-desktop`
+  * Upgrade Docker Desktop
+    * `sudo apt-get install ./docker-desktop-<version>-<arch>.deb`
+      * i.e. `sudo apt-get install ./docker-desktop-4.16.2-amd64.deb`
 
 
 * Docker commands
