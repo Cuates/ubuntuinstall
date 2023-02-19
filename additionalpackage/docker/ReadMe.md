@@ -100,6 +100,9 @@
       * i.e. `docker stop ubuntu`
   * List Docker images
     * `docker images`
+  * Execute bash to the Docker container
+    * `docker exec -it <container_name> bash`
+      * i.e. `docker exec -it nginx bash`
 * Docker Compose commands
   * Docker compose up
     * `docker compose up -d`
