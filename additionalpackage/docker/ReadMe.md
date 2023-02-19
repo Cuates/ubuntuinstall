@@ -8,6 +8,7 @@
 [Komga Baseurl](https://komga.org/installation/configuration.html#server-servlet-context-path-server-servlet-context-path-baseurl)<br />
 [Komga Gotson](https://github.com/gotson/komga/issues/353)<br />
 [Docker Compose](https://github.com/docker/compose/releases/)<br />
+[Install Docker Desktop on Ubuntu](https://docs.docker.com/desktop/install/ubuntu/)<br />
 
 * Docker
   * Update System
@@ -43,6 +44,25 @@
     * `chmod +x ~/.docker/cli-plugins/docker-compose`
   * Verify installation was successful
     * `docker compose version`
+* Docker Desktop
+  * The three steps above are done before installing Docker Desktop
+    * Install prerequisite packages
+    * Add GPG Key for the official Docker repo
+    * Add Docker repo to APT sources
+  * Visit the Install Docker Desktop on Ubuntu for the latest version
+    * As of this write up version is 4.16.2
+  * Update System
+    * `sudo apt-get update`
+  * Install Package
+    * `sudo apt-get install -y ./docker-desktop-4.16.2-amd64.deb`
+      * Based on Docker Desktop documenation, you can ignore the warning
+        * <pre>
+            N: Download is performed unsandboxed as root, as file '/home/user/Downloads/docker-desktop.deb' couldn't be accessed by user '_apt'. - pkgAcquire::Run (13: Permission denied)
+          </pre>
+  * Open Docker Desktop GUI
+    * `systemctl --user start docker-desktop`
+    * Accept the EULA, will only show the first time the app is opened after installing
+
 
 * Docker commands
   * View all available subcommands
