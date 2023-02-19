@@ -336,6 +336,7 @@
      * `chown postgres:postgres filename.gz`
    * Login as the postgresql user
      * `sudo -i -u postgres`
+     * `psql`
      * User Create
        * `create user <username> with password '<password>';`
      * Database Create
