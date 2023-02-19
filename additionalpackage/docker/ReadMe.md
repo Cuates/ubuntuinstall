@@ -32,7 +32,15 @@
     * NOTE: If log out does not work, then restart your system
   * Check if docker group was added
     * `groups`
-* Docker-Compose
+* Docker Compose
+  * Create directory
+    * `mkdir -p ~/.docker/cli-plugins/`
+  * Download docker compose
+    * `curl -SL https://github.com/docker/compose/releases/download/v2.16.0/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose`
+  * Set permission for docker compose to be executable
+    * `chmod +x ~/.docker/cli-plugins/docker-compose`
+  * Verify installation was successful
+    * `docker compose version`
 
 * Docker commands
   * View all available subcommands
@@ -41,3 +49,19 @@
     * `docker docker-subcommand --help`
   * View system-wide information about DOcker
     * `docker info`
+  * View active containers
+    * `docker ps`
+  * View all containers
+    * `docker ps -a`
+  * List containers created
+    * `docker ps -l`
+  * Start a container
+    * `docker start <conatiner_id>/<container_name>`
+      * i.e. `docker start 1c08a7a0d0e4`
+      * i.e. `docker start ubuntu`
+  * Stop a container
+    * `docker stop <container_id>/<contatiner_name>`
+      * i.e. `docker stop 1c08a7a0d0e4`
+      * i.e. `docker stop ubuntu`
+  * List Docker images
+    * `docker images`
