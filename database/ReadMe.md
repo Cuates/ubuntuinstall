@@ -9,10 +9,10 @@
 * [PostgreSQL](#postgresql)
 
 ### FreeTDS
-* [1.1.20-1](https://github.com/Cuates/centosinstall/tree/master/database/freetds)
+* [1.1.20-1](https://github.com/Cuates/ubuntuinstall/tree/master/database/freetds)
 
 ### UnixODBC
-* [2.3.7](https://github.com/Cuates/centosinstall/tree/master/database/unixodbc)
+* [2.3.7](https://github.com/Cuates/ubuntuinstall/tree/master/database/unixodbc)
 
 ### MSSQL
 * [2019](https://github.com/Cuates/ubuntuinstall/tree/main/database/mssql)
