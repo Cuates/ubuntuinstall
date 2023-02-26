@@ -332,7 +332,7 @@
  * Importing from a backup gz file
    * Open a terminal of your choice
    * Copy over the backup of your old database into the postgresql location
-     * `sudo cp filename.gz /var/lib/postgressql/`
+     * `sudo cp filename.gz /var/lib/postgresql/`
    * Set the permissions to postgres user for the file just copied
      * `chown postgres:postgres filename.gz`
    * Login as the postgresql user
