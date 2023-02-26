@@ -347,6 +347,7 @@
    * Database Alter Owner To Role
      * `alter database <databasename> owner to <username>;`
    * Use compressed dumps of choice to import everything from your old database to your new database
+     * NOTE: Exit from psql to get back to postgres user if not done so already
      * The following command will be for gz file; yours will vary depending on what compression you chose
        * `gunzip -c filename.gz | psql <database_name>`
          * "-c" is to drop the database objects before recreating them
