@@ -53,7 +53,7 @@
   * http://localhost:8080
 
 * Set up the setting for qBittorrent
-  * **These are based on Windows application settings**
+  * **These are based on Windows/Linux application settings**
   * Behavior
     * Interface
       * Language
@@ -107,7 +107,7 @@
       * Check
         * Global maximum number of connections
           * Choose number of connection
-            * i.e. 500
+            * i.e. 100
             * **Note** If you set this value higher than your connection speed may vary
         * Global maximum number of connections per torrent
           * Choose number of connection
@@ -115,27 +115,27 @@
             * **Note** If you set this value higher than your connection speed may vary
         * Global maximum number of upload slots
           * Choose number of connection
-            * i.e. 1
+            * i.e. 20
             * **Note** If you set this value higher than your connection speed may vary
         * Global maximum number of upload slots per torrent
           * Choose number of connection
-            * i.e. 1
+            * i.e. 4
             * **Note** If you set this value higher than your connection speed may vary
   * Speed
     * Global Rate Limits
       * Upload
         * Select
-          * i.e. 10 KiB/s
+          * i.e. 0 KiB/s (infinity)
       * Download
         * Select
-          * i.e. (infinity)
+          * i.e. 0 KiB/s (infinity)
     * Alternative Rate Limits
       * Upload
         * Select
           * i.e. 10 KiB/s
       * Download
         * Select
-          * i.e. (infinity)
+          * i.e. 10 KiB/s
     * Rate Limits Setting
       * Check
         * Apply rate limit to muTP protocol
@@ -156,7 +156,7 @@
     * Torrent Queueing
       * Maximum Active Downloads
         * Choose number in queue
-          * i.e. (Infinity)
+          * i.e. 70
           * **Note** Your connection speed may vary
       * Maximum Active Uploads
         * Choose number in queue
@@ -164,7 +164,7 @@
           * **Note** If you set this value higher than your connection speed may vary
       * Maximum Active Torrents
         * Choose number in queue
-          * i.e. (Infinity)
+          * i.e. 70
           * **Note** Your connection speed may vary
       * Check
         * Do not count slow torrents in these limits
@@ -205,6 +205,10 @@
               * i.e. password if any
             * Check
               * Bypass authentication for clients on localhost
+          * Use alternative Web UI
+            * Check
+            * Point to the path of the alternative web ui design
+              * Example of web ui is VueTorrent
           * Security
             * Check
               * Enable clickjacking protection
@@ -220,7 +224,7 @@
     * Asynchronous I/O threads
       * i.e. 10
     * File Pool Size
-      * i.e. 40
+      * i.e. 5000
     * Outstanding memory when checking torrents
       * i.e. 32 MiB
     * Disk Cache **NOTE** Not on new version
