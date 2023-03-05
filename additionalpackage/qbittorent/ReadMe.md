@@ -125,7 +125,7 @@
     * Global Rate Limits
       * Upload
         * Select
-          * i.e. 0 KiB/s (infinity)
+          * i.e. 10 KiB/s
       * Download
         * Select
           * i.e. 0 KiB/s (infinity)
@@ -135,7 +135,7 @@
           * i.e. 10 KiB/s
       * Download
         * Select
-          * i.e. 10 KiB/s
+          * i.e. 0 KiB/s (infinity)
     * Rate Limits Setting
       * Check
         * Apply rate limit to muTP protocol
@@ -184,7 +184,7 @@
       * Check
         * When ratio reaches
           * Choose
-            * i.e. 1.00
+            * i.e. 1
             * Then choose
               * Pause torrent
   * RSS
