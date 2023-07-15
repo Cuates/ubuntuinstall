@@ -107,11 +107,11 @@
       * Check
         * Global maximum number of connections
           * Choose number of connection
-            * i.e. 100
+            * i.e. 70
             * **Note** If you set this value higher than your connection speed may vary
         * Global maximum number of connections per torrent
           * Choose number of connection
-            * i.e. 100
+            * i.e. 70
             * **Note** If you set this value higher than your connection speed may vary
         * Global maximum number of upload slots
           * Choose number of connection
