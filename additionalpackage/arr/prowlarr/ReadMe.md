@@ -1,4 +1,8 @@
 [*Arr Installation Script](https://wiki.servarr.com/install-script)<br />
+[Trigger manual search through query param](https://github.com/Prowlarr/Prowlarr/issues/427) <br />
+[Show RSS link in UI for indexers and searches](https://github.com/Prowlarr/Prowlarr/issues/182) <br />
+[RSS feed search in all indexers](https://github.com/Prowlarr/Prowlarr/issues/466) <br />
+[External-API,-RSS-and-cached-queries](https://github.com/theotherp/nzbhydra2/wiki/External-API,-RSS-and-cached-queries) <br />
 
 * Copy and Paste the ArrInstall.sh script into a local file
   * Visit the *Arr Installation Script for the most up to date script
