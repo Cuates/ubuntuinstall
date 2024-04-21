@@ -18,8 +18,10 @@
 * Navigate to home directory
   * `cd ~`
 * Modify file .bashrc to include starship
+  * Get the path to starship
+    * `whereis starship`
   * `vim ~/.bashrc`
     * Add the following to the bottom of the file
-      * `eval "$(starship init bash)"`
+      * `eval "$(</path/to/starship> init bash)"`
 * Reload bash
   * `. .bashrc`
