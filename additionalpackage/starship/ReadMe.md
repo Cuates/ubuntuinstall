@@ -11,10 +11,8 @@
   * `cd ~`
 * Create config directory
   * `mkdir .config`
-* Navigate into config directory
-  * `cd ~/.config`
-* Create file starship.toml
-  * `vim starship.toml`
+* Create and modify file starship.toml
+  * `vim ~/.config/starship.toml`
     * Copy and paste [starship.toml](https://github.com/Cuates/windowsinstall/blob/main/system/terminal/starship.toml) content
     * Save and exit file
 * Navigate to home directory
