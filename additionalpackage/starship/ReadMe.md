@@ -1,3 +1,5 @@
+[How To Install And Configure Starship On Linux](https://linuxconfig.org/how-to-install-and-configure-starship-on-linux)<br />
+
 * Starship Download
   * `curl -O https://starship.rs/install.sh`
 * Chmod File
