@@ -20,6 +20,8 @@
 * Navigate to home directory
   * `cd ~`
 * Modify file .bashrc to include starship
-  * `eval "$(starship init bash)"`
+  * `vim ~/.bashrc`
+    * Add the following to the bottom of the file
+      * `eval "$(starship init bash)"`
 * Reload bash
   * `. .bashrc`
