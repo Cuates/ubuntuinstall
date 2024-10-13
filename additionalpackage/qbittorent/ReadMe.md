@@ -1,5 +1,6 @@
 [How to Install qBittorrent on Ubuntu 22 04 or 20 04](https://www.linuxcapable.com/how-to-install-qbittorrent-on-ubuntu-linux/)<br />
 [How to Install qBittorrent on Ubuntu 19 04 Desktop or Server](https://www.linuxbabe.com/ubuntu/install-qbittorrent-ubuntu-19-04-desktop-server)<br />
+[qBittorrent 5.x Remove .Trash-####](https://forum.qbittorrent.org/viewtopic.php?t=11754)<br />
 
 * Install Command before packages
   * `sudo apt install -y dirmngr lsb-release ca-certificates software-properties-common apt-transport-https`
@@ -270,3 +271,9 @@
       * i.e. 300 s
     * Maximum outstanding request to a single peer
       * i.e. 500
+* qBittorent 5.x Delete .Trash-#### Folder Via Docker Container
+  * Stop torrent container
+    * Go to <docker_containter_qbittorrent_folder>/config/qBittorrent.conf
+      * Under the [Bittorrent] section paste the following at the end of that list
+        * `Session\TorrentContentRemoveOption=Delete`
+  * Start torrent container
